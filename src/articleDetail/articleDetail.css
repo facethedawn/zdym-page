@@ -1,0 +1,65 @@
+.ad-banner {
+  width: 100%;
+  height: 320px;
+  background: url(/common/img/articleListTitle.jpg) center center;
+  position: relative;
+  min-width: 1200px;
+}
+
+.ad-article-wrap {
+  width: 1200px;
+  min-height: 1000px;
+  /* background-color: #ccc; */
+  margin: -183px auto 0;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.ad-article-wrap .l {
+  width: 874px;
+  /* background-color: yellowgreen; */
+  margin-left: 24px;
+}
+.ad-article-wrap .l h1 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bolder;
+  line-height: 45px;
+}
+.ad-article-wrap .l .time {
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, .5);
+}
+.ad-article-wrap .l .rich-wrap {
+  width: 100%;
+  padding: 50px 0 100px;
+  background-color: #f4f5f8;
+}
+.ad-article-wrap .l .rich-wrap .rich-content {
+  width: 765px;
+  margin: 0 auto;
+}
+.ad-article-wrap .l .rich-wrap .rich-content img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.ad-article-wrap .l .rich-wrap .rich-content p {
+  line-height: 30px;
+}
+.ad-article-wrap .r {
+  width: 256px;
+  height: 1000px;
+  /* background-color: green; */
+  margin-right: 18px;
+  padding-top: 210px;
+}
+.ad-article-wrap .r h2 {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.ad-article-wrap .r ul li {
+  margin-bottom: 50px;
+}

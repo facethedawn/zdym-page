@@ -1,0 +1,197 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+/* 顶部header */
+.common-header {
+  height: 88px;
+  width: 100%;
+  /* background-color: #fff; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ccc;
+  /* box-shadow: 0px 0px 15px #444; */
+}
+.common-header .logo {
+  margin-left: 110px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.common-header .content {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 88px;
+  line-height: 88px;
+}
+.common-header .content .top-item-wrap {
+  display: inline-block;
+}
+.common-header .content .top-item-wrap .top-item{
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+}
+.common-header .content .top-item-wrap .top-item .topBottom {
+  position: absolute;
+  display: inline-block;
+  height: 6px;
+  width: 100%;
+  background-color: #ec5d41;
+  left: 0;
+  top: 0;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  transition: all .3s;
+  transform: translateY(-6px);
+}
+.common-header .content .top-item-wrap li:hover .topBottom {
+  transform: translateY(0px);
+}
+.common-header .content .top-item-wrap .top-item .fa {
+  transition: all .3s;
+  color: #fff;
+}
+.common-header .content .top-item-wrap .top-item:hover .fa {
+  transform: rotate(180deg);
+  color: #ec5d41;
+}
+.common-header .content .top-item-wrap .top-item b {
+  transition: all .3s;
+  color: #fff;
+}
+.common-header .content .top-item-wrap .top-item:hover b {
+  color: #ec5d41;
+}
+.common-header .content .top-item-wrap .top-item.aboutUs .second-wrap {
+  position: absolute;
+  width: 356px;
+  height: 38px;
+  line-height: 38px;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -178px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+.common-header .content .top-item-wrap .top-item .second-wrap li {
+  display: inline-block;
+  margin: 0 5px;
+  color: rgba(255, 255, 255, .8);
+}
+.common-header .content .top-item-wrap .top-item .second-wrap ul  {
+  text-align: center;
+}
+.common-header .content .lang {
+  display: inline-block;
+  margin-right: 36px;
+  margin-left: 36px;
+}
+.common-header .content .contact {
+  display: inline-block;
+  width: 154px;
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  background-color: #ec5d41;
+  transition: all .3s;
+}
+.common-header .content .contact:hover {
+  box-shadow: 0 0 10px #333;
+}
+/* 顶部header结束 */
+
+
+
+
+
+
+
+
+/* 分页 */
+.common-pages {
+  height: auto;
+  height: 77px;
+  line-height: 77px;
+  border-top:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  text-align: center;
+}
+.common-pages span {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.common-pages ul {
+  display: inline-block;
+}
+.common-pages ul li {
+  display: inline-block;
+  color: #aaa;
+  cursor: pointer;
+  padding: 0 8px;
+  border-top: 5px solid transparent;
+}
+.common-pages ul li.active {
+  border-color: #e32300;
+}
+
+/* 分页结束 */
+
+
+/* 文章的item */
+.common-item {
+  cursor: pointer;
+}
+.common-item .cover {
+  width: 256px;
+  height: 160px;
+  position: relative;
+}
+.common-item .cover .imgWrap {
+  width: 256px;
+  height: 160px;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+}
+.common-item .cover img {
+  display: block;
+  width: 256px;
+  height: 160px;
+  transition: all .5s;
+}
+.common-item:hover .cover img {
+  transform: scale(1.2);
+}
+.common-item .cover span {
+  display: block;
+  position: absolute;
+  background-color: #1b95c0;
+  right: 14px;
+  bottom: -12px;
+  padding: 5px 8px;
+  color: #fff;
+  font-size: 12px;
+}
+.common-item h3 {
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 16px;
+  line-height: 20px;
+  transition: all .5s;
+}
+.common-item:hover h3 {
+  color: #1b95c0;
+}
+.common-item p {
+  font-size: 14px;
+  opacity: .32;
+  margin-top: 10px;
+  line-height: 18px;
+}
+
+/* 文章的item结束 */

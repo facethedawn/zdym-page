@@ -1,0 +1,18 @@
+body {
+  height: 1000px;
+  background-color: yellowgreen;
+}
+.common-header {
+  /* display: none; */
+}
+.test {
+  width:20px;
+  height: 400px;
+  background-color: red;
+}
+.test .son {
+  position: absolute;
+}
+.test .son li {
+  display: inline-block;
+}
