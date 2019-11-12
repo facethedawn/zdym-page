@@ -10,7 +10,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background: #ccc;
+  z-index: 99;
+  /* background: #ccc; */
   /* box-shadow: 0px 0px 15px #444; */
 }
 .common-header .logo {
@@ -59,11 +60,28 @@ body {
   color: #ec5d41;
 }
 .common-header .content .top-item-wrap .top-item b {
-  transition: all .3s;
+  transition: all .5s;
   color: #fff;
 }
 .common-header .content .top-item-wrap .top-item:hover b {
   color: #ec5d41;
+}
+.common-header .content .top-item-wrap .top-item .second-wrap {
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: all .5s;
+}
+.common-header .content .top-item-wrap .top-item .second-wrap li a {
+  color: rgba(255, 255, 255, .8);
+}
+.common-header .content .top-item-wrap .top-item .second-wrap.show {
+  transform: translateY(0);
+  opacity: 1;
+  display: block;
+  visibility: visible;
 }
 .common-header .content .top-item-wrap .top-item.aboutUs .second-wrap {
   position: absolute;
@@ -73,12 +91,37 @@ body {
   bottom: -19px;
   left: 50%;
   margin-left: -178px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
+}
+.common-header .content .top-item-wrap .top-item.product .second-wrap {
+  position: absolute;
+  width: 450px;
+  height: 38px;
+  line-height: 38px;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -225px;
+}
+.common-header .content .top-item-wrap .top-item.technology .second-wrap {
+  position: absolute;
+  width: 572px;
+  height: 38px;
+  line-height: 38px;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -286px;
+}
+.common-header .content .top-item-wrap .top-item.industry .second-wrap {
+  position: absolute;
+  width: 530px;
+  height: 38px;
+  line-height: 38px;
+  bottom: -19px;
+  left: 50%;
+  margin-left: -265px;
 }
 .common-header .content .top-item-wrap .top-item .second-wrap li {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 10px;
   color: rgba(255, 255, 255, .8);
 }
 .common-header .content .top-item-wrap .top-item .second-wrap ul  {
@@ -99,9 +142,10 @@ body {
   border-radius: 10px;
   background-color: #ec5d41;
   transition: all .3s;
+  margin-right: 68px;
 }
 .common-header .content .contact:hover {
-  box-shadow: 0 0 10px #333;
+  background-color: rgba(236, 93, 65, .8);
 }
 /* 顶部header结束 */
 

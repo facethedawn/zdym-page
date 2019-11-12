@@ -9,7 +9,11 @@
   <link rel="stylesheet" href="/common/css/common.css">
   <link rel="stylesheet" href="/common/css/font-awesome.min.css">
   <link rel="stylesheet" href="/src/index/index.css">
+  <link rel="stylesheet" href="/common/js/swiper/swiper.min.css">
   <script src="/common/js/jquery.min.js"></script>
+  <script src="/common/js/common.js"></script>
+  <script src="/common/js/swiper/swiper.min.js"></script>
+  <script src="/src/index/index.js"></script>
 </head>
 <body>
   <div class="common-header">
@@ -23,15 +27,45 @@
           <b>About Us</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span>
           <div class="second-wrap">
             <ul>
-              <li>CWDATA</li>
-              <li>Leadership</li>
-              <li>Board</li>
+              <li><a href="#">CWDATA</a></li>
+              <li><a href="#">Leadership</a></li>
+              <li><a href="#">Board</a></li>
             </ul>
           </div>
         </li>
-        <li class="top-item"><b>Product</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span></li>
-        <li class="top-item"><b>Technology</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span></li>
-        <li class="top-item"><b>Industry</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span></li>
+        <li class="top-item product">
+          <b>Product</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span>
+          <div class="second-wrap">
+            <ul>
+              <li><a href="#">Informatics</a></li>
+              <li><a href="#">Analytics</a></li>
+              <li><a href="#">Big Data</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="top-item technology">
+          <b>Technology</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span>
+          <div class="second-wrap">
+            <ul>
+              <li><a href="#">Data Lake</a></li>
+              <li><a href="#">Analytics Engine</a></li>
+              <li><a href="#">AI</a></li>
+              <li><a href="#">Security & Governance</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="top-item industry">
+          <b>Industry</b> <i class="fa fa-angle-down"></i> <span class="topBottom"></span>
+          <div class="second-wrap">
+            <ul>
+              <li><a href="#">Pharma</a></li>
+              <li><a href="#">Medical Device</a></li>
+              <li><a href="#">Insurance</a></li>
+              <li><a href="#">Hospital</a></li>
+            </ul>
+          </div>
+        </li>
         <li class="top-item"><b>News</b> <span class="topBottom"></span> </li>
         <li class="top-item"><b>Partnership</b> <span class="topBottom"> </span></li>
       </ul>
@@ -39,20 +73,66 @@
       <a href="#" class="contact">contact us</a>
     </div>
   </div>
-
-
-
-  <div class="test">
-    <div class="son">
-      <ul>
-        <li>12312312313</li><li>12312312313</li><li>12312312313</li><li>12312312313</li>
-      </ul>
+  <div class="index-banner">
+    <div class="swiper-wrap">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide one">
+              <img src="/src/index/img/item1.png" alt="" class="bg">
+              <div class="ball1">
+                <img src="/src/index/img/ball1-1.png" alt="" class="b">
+                <img src="/src/index/img/ball1-2.png" alt="" class="l">
+              </div>
+              <img src="/src/index/img/ball2.png" alt="" class="ball2">
+              <img src="/src/index/img/ball3.png" alt="" class="ball3">
+            </div>
+            <div class="swiper-slide two">
+              <img src="/src/index/img/item2.png" alt="" class="bg">
+              <div class="ball1">
+                <img src="/src/index/img/ball1-1.png" alt="" class="b">
+                <img src="/src/index/img/ball1-2.png" alt="" class="l">
+              </div>
+              <img src="/src/index/img/ball2.png" alt="" class="ball2">
+              <img src="/src/index/img/ball3.png" alt="" class="ball3">
+            </div>
+            <div class="swiper-slide three">
+              <img src="/src/index/img/item3.png" alt="" class="bg">
+              <div class="ball1">
+                <img src="/src/index/img/ball1-1.png" alt="" class="b">
+                <img src="/src/index/img/ball1-2.png" alt="" class="l">
+              </div>
+              <img src="/src/index/img/ball2.png" alt="" class="ball2">
+              <img src="/src/index/img/ball3.png" alt="" class="ball3">
+            </div>
+            <div class="swiper-slide four">
+              <img src="/src/index/img/item4.png" alt="" class="bg">
+              <div class="ball1">
+                <img src="/src/index/img/ball1-1.png" alt="" class="b">
+                <img src="/src/index/img/ball1-2.png" alt="" class="l">
+              </div>
+              <img src="/src/index/img/ball2.png" alt="" class="ball2">
+              <img src="/src/index/img/ball3.png" alt="" class="ball3">
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </div>
+    <h3><span></span>About Us</h3>
+    <h1>Healthcare</h1>
+    <h2>Big Data</h2>
+    <div class="info">
+      <h3>Vision | Mission | Value proposition</h3>
+      <p>Big data analytics and technology innovation company focused around improving human health.</p>
+      <span></span>
     </div>
   </div>
-  <script> 
-    $(function(){
-      console.log(123)
-    })
-  </script>
 </body>
 </html>

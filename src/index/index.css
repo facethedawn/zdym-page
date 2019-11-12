@@ -1,18 +1,253 @@
 body {
-  height: 1000px;
-  background-color: yellowgreen;
+  /* background-color: rgb(167, 168, 164); */
 }
 .common-header {
   /* display: none; */
 }
-.test {
-  width:20px;
-  height: 400px;
-  background-color: red;
+.index-banner {
+  /* background-color: yellowgreen; */
+  position: relative;
+  transition: all .3s;
 }
-.test .son {
+.index-banner .swiper-wrap {
   position: absolute;
+  right: 0;
 }
-.test .son li {
+.index-banner .swiper-wrap .swiper-container .one {
+  background-color: #dcae45;
+}
+.index-banner .swiper-wrap .swiper-container .two {
+  background-color: #78acb0;
+}
+.index-banner .swiper-wrap .swiper-container .three {
+  background-color: #c9162a;
+}
+.index-banner .swiper-wrap .swiper-container .four {
+  background-color: #70544f;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide {
+  position: relative;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 {
+  position: absolute;
+  z-index: 2;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 .b {
+  display: block;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball3 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 6s infinite 0.5s;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball1 {
+  position: absolute;
+  z-index: 2;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball1 .b {
+  display: block;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball3 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 6s infinite 0.5s;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball1 {
+  position: absolute;
+  z-index: 2;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball1 .b {
+  display: block;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball3 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 6s infinite 0.5s;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball1 {
+  position: absolute;
+  z-index: 2;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball1 .b {
+  display: block;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+}
+.index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball3 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 6s infinite 0.5s;
+}
+
+.index-banner h1 {
+  font-size: 155px;
+  color: #fff;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 2;
+  top: 250px;
+  left: 150px;
+  opacity: 0;
+}
+.index-banner h1.aniL {
+  animation: wordGoLeft 1s;
+  animation-fill-mode: forwards;
+}
+.index-banner h1.aniR {
+  animation: wordGoRight 1s;
+  animation-fill-mode: forwards;
+}
+
+.index-banner h2 {
+  font-size: 132px;
+  color: #fff;
+  font-weight: 200;
+  position: absolute;
+  z-index: 2;
+  top: 390px;
+  left: 150px;
+  opacity: 0;
+}
+
+.index-banner h3 {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #ccc;
+}
+.index-banner h3 span {
   display: inline-block;
+  width: 48px;
+  height: 3px;
+  background-color: #fff;
+}
+
+
+
+.index-banner h2.aniL {
+  animation: wordGoLeft 1s .3s;
+  animation-fill-mode: forwards;
+}
+.index-banner h2.aniR {
+  animation: wordGoRight 1s .3s;
+  animation-fill-mode: forwards;
+}
+.index-banner .info {
+  position: absolute;
+  z-index: 2;
+  width: 386px;
+  top: 650px;
+  left: 460px;
+}
+.index-banner .info h3 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+.index-banner .info p {
+  color: #fff;
+  opacity: .5;
+  line-height: 20px;
+}
+.index-banner .info span {
+  display: block;
+  width: 48px;
+  height: 3px;
+  background-color: #fff;
+  opacity: .2;
+  margin-top: 10px;
+}
+
+
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes wordGoLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes wordGoRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

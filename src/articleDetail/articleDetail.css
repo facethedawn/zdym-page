@@ -63,3 +63,42 @@
 .ad-article-wrap .r ul li {
   margin-bottom: 50px;
 }
+
+.ad-share {
+  position: fixed;
+  left: 50%;
+  top: 400px;
+  margin-left: -658px;
+}
+.ad-share ul li {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f4f5f8;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.ad-share ul li i {
+  color: #abacae;
+  transition: all .3s;
+  display: inline-block;
+  vertical-align: top;
+}
+.ad-share ul li:hover i {
+  transform: translateY(-4px);
+  color: #1b95c0;
+}
+.ad-share ul li.weixin i {
+  font-size: 24px;
+  margin-top: 18px;
+}
+.ad-share ul li.linkedin i {
+  font-size: 24px;
+  margin-top: 18px;
+}
+.ad-share ul li.weibo i {
+  font-size: 24px;
+  margin-top: 18px;
+}
