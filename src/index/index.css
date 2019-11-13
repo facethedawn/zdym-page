@@ -5,7 +5,7 @@ body {
   /* display: none; */
 }
 .index-banner {
-  /* background-color: yellowgreen; */
+  background-color: #dcae45;
   position: relative;
   transition: all .3s;
 }
@@ -124,13 +124,150 @@ body {
   z-index: 2;
   animation: updown 6s infinite 0.5s;
 }
+.index-banner .swiper-wrap .direction {
+  position: absolute;
+  bottom: -23px;
+  left: 50px;
+  z-index: 2;
+  font-size: 0;
+}
+.index-banner .swiper-wrap .direction li {
+  display: inline-block;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  background-color: #ec5d41;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+.index-banner .swiper-wrap .direction li i {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+  color: #fff;
+}
+.index-banner .swiper-wrap .direction li:hover {
+  background-color: #fff;
+}
+.index-banner .swiper-wrap .direction li:hover i {
+  color: #ec5d41;
+}
+.index-banner .swiper-wrap .share {
+  position: absolute;
+  z-index: 2;
+}
+.index-banner .swiper-wrap .share li {
+  font-size: 22px;
+  margin-bottom: 18px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  transition: all .3s;
+}
+.index-banner .swiper-wrap .share li:hover {
+  transform: scale(1.5);
+}
+
+.index-banner .swiper-wrap .pagi {
+  position: absolute;
+  z-index:2;
+  right: 37px;
+  bottom: 22px;
+  font-size: 0;
+}
+.index-banner .swiper-wrap .pagi li {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .3s;
+}
+.index-banner .swiper-wrap .pagi li.active {
+  height: 60px !important;
+}
+
+.index-banner .shadowWrap {
+  width: 1493px;
+  height: 768px;
+  position: absolute;
+  z-index: 9;
+  top: 115px;
+  right: 0;
+  background-color: #fab829;
+  /* background-color: red; */
+  border-top-left-radius: 500px;
+  overflow: hidden;
+  transition: all .5s;
+
+
+  /* width: 1920px;
+  height: 1080px;
+  top: 0;
+  border-radius: 0;
+  opacity: .5; */
+  opacity: 0;
+  visibility: hidden;
+}
+
+.index-banner .shadowWrap li {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  transition: all .5s;
+
+
+  /* top: 115px; */
+}
+.index-banner .shadowWrap li .bg {
+  display: block;
+}
+.index-banner .shadowWrap li.one .ball1 {
+  position: absolute;
+  z-index: 2;
+  top: 90px;
+  right: 120px;
+}
+.index-banner .shadowWrap li.one .ball1 .b {
+  display: block;
+}
+.index-banner .shadowWrap li.one .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+}
+.index-banner .shadowWrap li.one .ball2 {
+  position: absolute;
+  top: 381px;
+  left: 728px;
+  z-index: 2;
+  animation: updown 4s infinite;
+}
+.index-banner .shadowWrap li.one .ball3 {
+  position: absolute;
+  top: 113px;
+  left: 507px;
+  z-index: 2;
+  animation: updown 6s infinite 0.5s;
+}
+
+
+
+
+
+
+
 
 .index-banner h1 {
   font-size: 155px;
   color: #fff;
   font-weight: bolder;
   position: absolute;
-  z-index: 2;
+  z-index: 99;
   top: 250px;
   left: 150px;
   opacity: 0;
@@ -149,21 +286,25 @@ body {
   color: #fff;
   font-weight: 200;
   position: absolute;
-  z-index: 2;
+  z-index: 99;
   top: 390px;
   left: 150px;
   opacity: 0;
 }
 
-.index-banner h3 {
+.index-banner h4 {
   position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  background-color: #ccc;
+  z-index: 99;
+  top: 206px;
+  left: 161px;
+  font-size: 20px;
+  color: #fff;
 }
-.index-banner h3 span {
+.index-banner h4 span {
   display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+  margin-right: 24px;
   width: 48px;
   height: 3px;
   background-color: #fff;
@@ -181,10 +322,7 @@ body {
 }
 .index-banner .info {
   position: absolute;
-  z-index: 2;
-  width: 386px;
-  top: 650px;
-  left: 460px;
+  z-index: 99;
 }
 .index-banner .info h3 {
   font-size: 16px;
