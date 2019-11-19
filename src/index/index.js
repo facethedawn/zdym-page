@@ -74,16 +74,20 @@ $(function(){
         }, 30)
       },
       click: function() {
+        var wH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+        var wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        var propoH = wH / 1080
+        var propoW = wW / 1920
         $('.index-banner .shadowWrap').css({
           visibility: 'visible',
           width: wW,
           height: wH,
-          top:0,
+          top:0 * propoH,
           opacity:1,
           borderTopLeftRadius: 0
         })
         $('.index-banner .shadowWrap li').css({
-          top: 115
+          top: 115 * propoH
         })
       }
     }
@@ -307,6 +311,19 @@ $(function(){
       width: 6 * propoH,
       height: 42 * propoH,
       marginLeft: 10 * propoH
+    })
+
+    
+    $('.shadowWrap').css({
+      width: 1493 * propoH,
+      height: 768 * propoH,
+      top: 115 * propoH
+    })
+    // 假的第一个slider
+
+    $('.shadowWrap .one .bg').css({
+      width: 1920 * propoH,
+      height: 858 * propoH
     })
 
   }
