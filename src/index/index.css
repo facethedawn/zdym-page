@@ -7,23 +7,36 @@ body {
 .index-banner {
   background-color: #dcae45;
   position: relative;
-  transition: all .3s;
+  /* transition: all .3s; */
 }
 .index-banner .swiper-wrap {
   position: absolute;
   right: 0;
+  cursor: pointer;
+  /* opacity: .5s */
+  z-index: 2;
+}
+.index-banner .swiper-wrap .swiper-container {
+  border-top-left-radius: 330px;
+  border-top-right-radius: 100px;
+  /* background-color: yellowgreen !important; */
+  overflow: hidden;
 }
 .index-banner .swiper-wrap .swiper-container .one {
-  background-color: #dcae45;
+  /* background-color: transparent !important; */
+  /* background-color: #dcae45; */
 }
 .index-banner .swiper-wrap .swiper-container .two {
-  background-color: #78acb0;
+  /* background-color: transparent !important; */
+  /* background-color: #78acb0; */
 }
 .index-banner .swiper-wrap .swiper-container .three {
-  background-color: #c9162a;
+  /* background-color: transparent !important; */
+  /* background-color: #c9162a; */
 }
 .index-banner .swiper-wrap .swiper-container .four {
-  background-color: #70544f;
+  /* background-color: transparent !important; */
+  /* background-color: #70544f; */
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide {
   position: relative;
@@ -34,6 +47,7 @@ body {
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 .b {
   display: block;
+  animation: toSmall 5s infinite linear;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 .l {
   display: block;
@@ -58,6 +72,7 @@ body {
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball1 .b {
   display: block;
+  animation: toSmall 5s infinite linear;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.two .ball1 .l {
   display: block;
@@ -82,6 +97,7 @@ body {
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball1 .b {
   display: block;
+  animation: toSmall 5s infinite linear;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.three .ball1 .l {
   display: block;
@@ -105,6 +121,7 @@ body {
   z-index: 2;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball1 .b {
+  animation: toSmall 5s infinite linear;
   display: block;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.four .ball1 .l {
@@ -126,29 +143,29 @@ body {
 }
 .index-banner .swiper-wrap .direction {
   position: absolute;
-  bottom: -23px;
-  left: 50px;
   z-index: 2;
   font-size: 0;
+  /* bottom: -23px;
+  left: 50px; */
 }
 .index-banner .swiper-wrap .direction li {
   display: inline-block;
   text-align: center;
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
   border-radius: 50%;
   background-color: #ec5d41;
   margin: 0 7px;
   cursor: pointer;
   transition: all .3s;
+  /* width: 45px;
+  height: 45px;
+  line-height: 45px; */
 }
 .index-banner .swiper-wrap .direction li i {
-  font-size: 18px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 13px;
   color: #fff;
+  /* margin-top: 13px;
+  font-size: 18px; */
 }
 .index-banner .swiper-wrap .direction li:hover {
   background-color: #fff;
@@ -158,11 +175,11 @@ body {
 }
 .index-banner .swiper-wrap .share {
   position: absolute;
-  z-index: 2;
+  z-index: 999999;
 }
 .index-banner .swiper-wrap .share li {
   font-size: 22px;
-  margin-bottom: 18px;
+  margin-bottom: 22px;
   text-align: center;
   cursor: pointer;
   color: #fff;
@@ -190,17 +207,17 @@ body {
 }
 
 .index-banner .shadowWrap {
-  width: 1493px;
-  height: 768px;
   position: absolute;
+  /* width: 1493px;
+  height: 768px;
+  top: 115px; */
   z-index: 9;
-  top: 115px;
   right: 0;
   background-color: #fab829;
   /* background-color: red; */
   border-top-left-radius: 500px;
   overflow: hidden;
-  transition: all .5s;
+  transition: all .6s;
 
 
   /* width: 1920px;
@@ -216,22 +233,27 @@ body {
   position: absolute;
   top: 0px;
   right: 0;
-  transition: all .5s;
+  transition: all .6s;
 
 
   /* top: 115px; */
 }
 .index-banner .shadowWrap li .bg {
   display: block;
+  height: 858px;
+  width: 1920px;
 }
+/* 第一个slider */
 .index-banner .shadowWrap li.one .ball1 {
   position: absolute;
   z-index: 2;
-  top: 90px;
-  right: 120px;
+  /* top: 90px;
+  right: 120px; */
 }
 .index-banner .shadowWrap li.one .ball1 .b {
   display: block;
+  /* width: 374px;
+  height: 357px; */
 }
 .index-banner .shadowWrap li.one .ball1 .l {
   display: block;
@@ -239,22 +261,194 @@ body {
   top: 0;
   left: 0;
   animation: flash 5s infinite;
+  /* width: 374px;
+  height: 357px; */
 }
 .index-banner .shadowWrap li.one .ball2 {
   position: absolute;
-  top: 381px;
-  left: 728px;
   z-index: 2;
   animation: updown 4s infinite;
+  /* top: 381px;
+  left: 728px;
+  width: 83px;
+  height: 84px; */
 }
 .index-banner .shadowWrap li.one .ball3 {
   position: absolute;
-  top: 113px;
-  left: 507px;
-  z-index: 2;
   animation: updown 6s infinite 0.5s;
+  z-index: 2;
+  /* top: 113px;
+  left: 507px;
+  height: 53px;
+  width: 53px; */
 }
 
+
+/* 第一个slider */
+.index-banner .shadowWrap li.one .ball1 {
+  position: absolute;
+  z-index: 2;
+  /* top: 90px;
+  right: 120px; */
+}
+.index-banner .shadowWrap li.one .ball1 .b {
+  display: block;
+  animation: toSmall 5s infinite linear;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.one .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.one .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+  /* top: 381px;
+  left: 728px;
+  width: 83px;
+  height: 84px; */
+}
+.index-banner .shadowWrap li.one .ball3 {
+  position: absolute;
+  animation: updown 6s infinite 0.5s;
+  z-index: 2;
+  /* top: 113px;
+  left: 507px;
+  height: 53px;
+  width: 53px; */
+}
+
+
+
+/* 第二个slider */
+.index-banner .shadowWrap li.two .ball1 {
+  position: absolute;
+  z-index: 2;
+  /* top: 164px;
+  right: 227px; */
+}
+.index-banner .shadowWrap li.two .ball1 .b {
+  display: block;
+  animation: toSmall 5s infinite linear;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.two .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.two .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+  /* top: 381px;
+  left: 728px;
+  width: 83px;
+  height: 84px; */
+}
+.index-banner .shadowWrap li.two .ball3 {
+  position: absolute;
+  animation: updown 6s infinite 0.5s;
+  z-index: 2;
+  /* top: 113px;
+  left: 507px;
+  height: 53px;
+  width: 53px; */
+}
+
+/* 第三个slider */
+.index-banner .shadowWrap li.three .ball1 {
+  position: absolute;
+  z-index: 2;
+  /* top: 164px;
+  right: 227px; */
+}
+.index-banner .shadowWrap li.three .ball1 .b {
+  display: block;
+  animation: toSmall 5s infinite linear;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.three .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.three .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+  /* top: 381px;
+  left: 728px;
+  width: 83px;
+  height: 84px; */
+}
+.index-banner .shadowWrap li.three .ball3 {
+  position: absolute;
+  animation: updown 6s infinite 0.5s;
+  z-index: 2;
+  /* top: 113px;
+  left: 507px;
+  height: 53px;
+  width: 53px; */
+}
+
+/* 第四个slider */
+.index-banner .shadowWrap li.four .ball1 {
+  position: absolute;
+  z-index: 2;
+  /* top: 164px;
+  right: 227px; */
+}
+.index-banner .shadowWrap li.four .ball1 .b {
+  display: block;
+  animation: toSmall 5s infinite linear;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.four .ball1 .l {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: flash 5s infinite;
+  /* width: 374px;
+  height: 357px; */
+}
+.index-banner .shadowWrap li.four .ball2 {
+  position: absolute;
+  z-index: 2;
+  animation: updown 4s infinite;
+  /* top: 381px;
+  left: 728px;
+  width: 83px;
+  height: 84px; */
+}
+.index-banner .shadowWrap li.four .ball3 {
+  position: absolute;
+  animation: updown 6s infinite 0.5s;
+  z-index: 2;
+  /* top: 113px;
+  left: 507px;
+  height: 53px;
+  width: 53px; */
+}
 
 
 
@@ -271,6 +465,7 @@ body {
   top: 250px;
   left: 150px;
   opacity: 0;
+  transition: all .3s;
 }
 .index-banner h1.aniL {
   animation: wordGoLeft 1s;
@@ -290,6 +485,7 @@ body {
   top: 390px;
   left: 150px;
   opacity: 0;
+  transition: all .3s;
 }
 
 .index-banner h4 {
@@ -309,7 +505,9 @@ body {
   height: 3px;
   background-color: #fff;
 }
-
+.index-banner h4 b {
+  /* font-size: 16px; */
+}
 
 
 .index-banner h2.aniL {
@@ -323,39 +521,111 @@ body {
 .index-banner .info {
   position: absolute;
   z-index: 99;
+  transition: all .3s;
 }
 .index-banner .info h3 {
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: 500;
   color: #fff;
   margin-bottom: 10px;
-  line-height: 20px;
+  line-height: 24px;
+  word-spacing: 2px;
 }
 .index-banner .info p {
   color: #fff;
   opacity: .5;
-  line-height: 20px;
+  line-height: 23px;
+  word-spacing: 2px;
+  font-size: 15px;
 }
 .index-banner .info span {
   display: block;
-  width: 48px;
-  height: 3px;
+  width: 50px;
+  height: 2px;
   background-color: #fff;
   opacity: .2;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
+.index-banner .mouseWrap {
+  position: absolute;
+  left: 124px;
+  bottom: 23px;
+  z-index: 999;
+}
+.index-banner .bottomWord {
+  position: absolute;
+  z-index: 999;
+  font-size: 0;
+  /* bottom: 70px;
+  right: 53px; */
+}
+.index-banner .bottomWord li {
+  display: inline-block;
+  /* font-size: 14px;
+  padding: 0 30px; */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.index-banner .bottomWord li:first-child {
+  border-right: 1px solid rgba(255, 255, 255, .5);
+}
+.index-banner .bottomWord li a {
+  cursor: pointer;
+  color: #fff;
+}
+
+
+
+
+
+.NewsWrap {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 105px;
+}
+
+.NewsWrap ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.NewsWrap ul li {
+  width: 256px;
+  height: 400px;
+  cursor: pointer;
+}
+.NewsWrap .title {
+  margin-bottom: 30px;
+}
+.NewsWrap .title h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #3d4346;
+}
+.NewsWrap .title a {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  color: #000;
+}
+.NewsWrap .title a b {
+  padding-bottom: 5px;
+  border-bottom: 2px solid #abaaae;
+}
 
 
 @keyframes flash {
   0% {
-    opacity: 1;
+    opacity: 0.8;
   }
   50% {
     opacity: .5;
   }
   100% {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 @keyframes updown {
@@ -387,5 +657,17 @@ body {
   100% {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+@keyframes toSmall {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    transform: scale(1);
   }
 }

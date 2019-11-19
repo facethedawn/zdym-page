@@ -11,9 +11,9 @@ function l() {
   return {
       l: w,
       z: o(v, "zIndex", -1),
-      o: o(v, "opacity", 0.5),
-      c: o(v, "color", "0,0,0"),
-      n: o(v, "count", 99)
+      o: o(v, "opacity", 1),
+      c: o(v, "color", "255,255,255"),
+      n: o(v, "count", 199)
   }
 }
 function k() {
@@ -24,7 +24,7 @@ function b() {
   var w = [f].concat(t);
   var x, v, A, B, z, y;
   t.forEach(function (i) {
-      i.x += i.xa, i.y += i.ya, i.xa *= i.x > r || i.x < 0 ? -1 : 1, i.ya *= i.y > n || i.y < 0 ? -1 : 1, e.fillRect(i.x - 0.5, i.y - 0.5, 1, 1);
+      i.x += i.xa, i.y += i.ya, i.xa *= i.x > r || i.x < 0 ? -1 : 1, i.ya *= i.y > n || i.y < 0 ? -1 : 1
       for (v = 0; v < w.length; v++) {
           x = w[v];
           if (i !== x && null !== x.x && null !== x.y) {
@@ -49,8 +49,10 @@ var u = document.createElement("canvas"),
       max: 20000
   };
 u.id = c;
-u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o;
-j("body")[0].appendChild(u);
+// u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o;
+u.style.cssText = "position:absolute;top:0;left:0;z-index:1;"
+// j("body")[0].appendChild(u);
+document.querySelector('.index-banner').appendChild(u);
 k(), window.onresize = k;
 window.onmousemove = function (i) {
   i = i || window.event, f.x = i.clientX, f.y = i.clientY

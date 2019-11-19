@@ -1,5 +1,6 @@
 body {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+  overflow-x: hidden;
 }
 
 /* 顶部header */
@@ -10,14 +11,25 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99;
+  z-index: 9999;
+  transition: all .5s;
   /* background: #ccc; */
   /* box-shadow: 0px 0px 15px #444; */
 }
-.common-header .logo {
+.common-header.other {
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+}
+.common-header .logo1 {
   margin-left: 110px;
   display: inline-block;
   margin-top: 20px;
+}
+.common-header .logo2 {
+  margin-left: 110px;
+  display: inline-block;
+  margin-top: 20px;
+  display: none;
 }
 .common-header .content {
   position: absolute;
@@ -29,11 +41,14 @@ body {
 .common-header .content .top-item-wrap {
   display: inline-block;
 }
-.common-header .content .top-item-wrap .top-item{
+.common-header .content .top-item-wrap .top-item {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 16px;
   cursor: pointer;
   position: relative;
+}
+.common-header .content .top-item-wrap .top-item.home {
+  margin-right: 20px;
 }
 .common-header .content .top-item-wrap .top-item .topBottom {
   position: absolute;
@@ -42,7 +57,7 @@ body {
   width: 100%;
   background-color: #ec5d41;
   left: 0;
-  top: 0;
+  top: -1px;
   border-bottom-left-radius: 90px;
   border-bottom-right-radius: 90px;
   transition: all .3s;
@@ -55,6 +70,9 @@ body {
   transition: all .3s;
   color: #fff;
 }
+.common-header.other .content .top-item-wrap .top-item .fa {
+  color: #000;
+}
 .common-header .content .top-item-wrap .top-item:hover .fa {
   transform: rotate(180deg);
   color: #ec5d41;
@@ -62,6 +80,10 @@ body {
 .common-header .content .top-item-wrap .top-item b {
   transition: all .5s;
   color: #fff;
+  font-size: 15px;
+}
+.common-header.other .content .top-item-wrap .top-item b {
+  color: #3d4346;
 }
 .common-header .content .top-item-wrap .top-item:hover b {
   color: #ec5d41;
@@ -74,8 +96,12 @@ body {
   transform: translateY(6px);
   transition: all .5s;
 }
+.common-header.other .content .top-item-wrap .top-item .second-wrap {
+  background-color: #ec5d41;
+}
 .common-header .content .top-item-wrap .top-item .second-wrap li a {
   color: rgba(255, 255, 255, .8);
+  font-size: 15px;
 }
 .common-header .content .top-item-wrap .top-item .second-wrap.show {
   transform: translateY(0);
@@ -121,31 +147,45 @@ body {
 }
 .common-header .content .top-item-wrap .top-item .second-wrap li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 16px;
   color: rgba(255, 255, 255, .8);
 }
 .common-header .content .top-item-wrap .top-item .second-wrap ul  {
   text-align: center;
 }
-.common-header .content .lang {
-  display: inline-block;
-  margin-right: 36px;
-  margin-left: 36px;
-}
 .common-header .content .contact {
   display: inline-block;
-  width: 154px;
+  width: 140px;
   text-align: center;
   color: #fff;
   height: 40px;
-  line-height: 40px;
+  line-height: 39px;
   border-radius: 10px;
   background-color: #ec5d41;
   transition: all .3s;
   margin-right: 68px;
+  font-size: 15px;
+  vertical-align: top;
+  margin-top: 25px;
 }
 .common-header .content .contact:hover {
   background-color: rgba(236, 93, 65, .8);
+}
+.common-header .content .lang {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 70px;
+  color: #fff;
+  font-size: 15px;
+}
+.common-header.other .content .lang {
+  color: #000;
+}
+.common-header .lang i {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 35px;
+  margin-left: 5px;
 }
 /* 顶部header结束 */
 
@@ -175,7 +215,7 @@ body {
 }
 .common-pages ul li {
   display: inline-block;
-  color: #aaa;
+  color: #bbb;
   cursor: pointer;
   padding: 0 8px;
   border-top: 5px solid transparent;
@@ -239,3 +279,227 @@ body {
 }
 
 /* 文章的item结束 */
+
+
+.fakeFooter img {
+  display: block;
+  width: 100%;
+}
+
+
+/* 鼠标效果开始 */
+.mouse {
+  background: #bbb linear-gradient(transparent 0%, transparent 50%, #fff 50%, #fff 100%);
+  width: 30px;
+  height: 48px;
+  border-radius: 100px;
+  background-size: 100% 200%;
+  animation: colorSlide 5s linear infinite,nudgeMouse 5s ease-out infinite
+}
+
+.mouse:before,.mouse:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto
+}
+
+.mouse:before {
+  width: 24px;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 100px
+}
+
+.mouse:after {
+  background-color: #222a30;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  animation: trackBallSlide 5s linear infinite
+}
+/* 鼠标效果结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes colorSlide {
+  0% {
+    background-position: 0% 100%
+  }
+
+  20% {
+    background-position: 0% 0%
+  }
+
+  21% {
+    background-color: #bbb
+  }
+
+  29.99% {
+    background-color: #fff;
+    background-position: 0% 0%
+  }
+
+  30% {
+    background-color: #bbb;
+    background-position: 0% 100%
+  }
+
+  50% {
+    background-position: 0% 0%
+  }
+
+  51% {
+    background-color: #bbb
+  }
+
+  59% {
+    background-color: #fff;
+    background-position: 0% 0%
+  }
+
+  60% {
+    background-color: #bbb;
+    background-position: 0% 100%
+  }
+
+  80% {
+    background-position: 0% 0%
+  }
+
+  81% {
+    background-color: #bbb
+  }
+
+  90%, 100% {
+    background-color: #fff
+  }
+}
+
+@keyframes nudgeMouse {
+  0% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(8px)
+  }
+
+  30% {
+    transform: translateY(0)
+  }
+
+  50% {
+    transform: translateY(8px)
+  }
+
+  60% {
+    transform: translateY(0)
+  }
+
+  80% {
+    transform: translateY(8px)
+  }
+
+  90% {
+    transform: translateY(0)
+  }
+}
+
+
+@keyframes trackBallSlide {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+
+  6% {
+    opacity: 1;
+    transform: scale(0.9) translateY(5px)
+  }
+
+  14% {
+    opacity: 0;
+    transform: scale(.4) translateY(40px)
+  }
+
+  15%, 19% {
+    opacity: 0;
+    transform: scale(.4) translateY(-20px)
+  }
+
+  28%, 29.99% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+
+  30% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+
+  36% {
+    opacity: 1;
+    transform: scale(0.9) translateY(5px)
+  }
+
+  44% {
+    opacity: 0;
+    transform: scale(.4) translateY(40px)
+  }
+
+  45%, 49% {
+    opacity: 0;
+    transform: scale(.4) translateY(-20px)
+  }
+
+  58%, 59.99% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+
+  66% {
+    opacity: 1;
+    transform: scale(0.9) translateY(5px)
+  }
+
+  74% {
+    opacity: 0;
+    transform: scale(.4) translateY(40px)
+  }
+
+  75%, 79% {
+    opacity: 0;
+    transform: scale(.4) translateY(-20px)
+  }
+
+  88%, 100% {
+    opacity: 1;
+    transform: scale(1) translateY(-20px)
+  }
+}
