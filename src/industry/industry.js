@@ -80,7 +80,8 @@ $(function(){
 
     $('.industry_wrap .industryContent h1').css({
         fontSize: 60 * propoH,
-        marginLeft:600 * propoH
+        marginLeft:600 * propoW,
+        marginTop:130 * propoH
     })
 
     $('.industry_wrap .industryContent h1 img').css({
@@ -90,8 +91,8 @@ $(function(){
 
     $('.industry_wrap .industryContent p').css({
         width: 667 * propoH,
-        marginRight:400 * propoH,
-        marginTop:30 * propoH
+        marginRight:400 * propoW,
+        marginTop:130 * propoH
     })
     
     $('.industry_wrap .industryContent p span').css({
