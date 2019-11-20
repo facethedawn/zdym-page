@@ -118,7 +118,7 @@ $(function(){
 
     $('.two .content h1').css({
       fontSize: 70 * propoH,
-      paddingTop: 80 * propoH,
+      paddingTop: 200 * propoH,
       marginBottom: 40 * propoH
     })
 

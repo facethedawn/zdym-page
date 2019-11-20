@@ -114,7 +114,7 @@ body {
   visibility: hidden;
   opacity: 0;
   transform: translateY(6px);
-  transition: all .5s;
+  transition: all .2s;
 }
 .common-header.other .content .top-item-wrap .top-item .second-wrap {
   background-color: #ec5d41;
@@ -137,6 +137,7 @@ body {
   bottom: -19px;
   left: 50%;
   margin-left: -178px;
+  z-index: 2;
 }
 .common-header .content .top-item-wrap .top-item.product .second-wrap {
   position: absolute;
@@ -146,6 +147,7 @@ body {
   bottom: -19px;
   left: 50%;
   margin-left: -225px;
+  z-index: 2;
 }
 .common-header .content .top-item-wrap .top-item.technology .second-wrap {
   position: absolute;
@@ -155,6 +157,7 @@ body {
   bottom: -19px;
   left: 50%;
   margin-left: -286px;
+  z-index: 2;
 }
 .common-header .content .top-item-wrap .top-item.industry .second-wrap {
   position: absolute;
@@ -164,6 +167,7 @@ body {
   bottom: -19px;
   left: 50%;
   margin-left: -265px;
+  z-index: 2;
 }
 .common-header .content .top-item-wrap .top-item .second-wrap li {
   display: inline-block;
