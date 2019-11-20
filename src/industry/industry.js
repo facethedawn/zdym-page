@@ -69,7 +69,8 @@ $(function(){
         paddingLeft:24 * propoH,
         paddingRight:24 * propoH,
         borderRadius:12 * propoH,
-        lineHeight:36 * propoH+ 'px'
+        lineHeight:36 * propoH+ 'px',
+        letterSpacing:2 * propoH + 'px'
     })
 
     $('.industry_wrap .one .industry_nav li').css({
@@ -194,6 +195,14 @@ $(function(){
 
     $('.industry_wrap .industryTopList_5 p').css({
         marginTop:220 * propoH
+    })
+
+    $('.industry_wrap .industryTopList_6 .left').css({
+        paddingTop:120 * propoH
+    })
+
+    $('.industry_wrap .industryTopList_6 .introImg').css({
+        marginTop:260 * propoH
     })
 
     $('.industry_wrap .industryTopList_6 p').css({

@@ -62,7 +62,8 @@ $(function(){
             fontSize: 16 * propoH,
             borderRadius:12 * propoH,
             paddingLeft: 24 * propoH,
-            paddingRight: 24 * propoH
+            paddingRight: 24 * propoH,
+            letterSpacing:2 * propoH + 'px'
         })
 
         $('.product_ball_01').css({

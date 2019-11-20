@@ -119,6 +119,16 @@
     float: left;
 }
 
+.industry_wrap .sectionGraybg h1 {
+    color: white;
+    font-weight: lighter;
+}
+
+.industry_wrap .sectionGraybg h1 b {
+    color: #ec5d41;
+    font-weight: bolder;
+}
+
 .industry_wrap .industryTopList_1 p {
     float: right;
 }

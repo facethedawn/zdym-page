@@ -33,7 +33,7 @@
   }
   .al-contactUs-wrap .title ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 35px;
   }
   .al-contactUs-wrap .title ul li a {
     font-size: 18px;
@@ -112,9 +112,10 @@
   }
 
   .submitForm {
-      font-size: 24px;
+      font-size: 18px;
       font-weight: lighter;
       padding-top: 20px;
+      line-height: 28px;
   }
 
   .submitForm li {
