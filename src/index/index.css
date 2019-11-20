@@ -7,6 +7,8 @@ body {
 .index-banner {
   background-color: #dcae45;
   position: relative;
+  min-width: 1400px;
+  overflow: auto;
   /* transition: all .3s; */
 }
 .index-banner .swiper-wrap {
@@ -229,7 +231,7 @@ body {
   visibility: hidden;
 }
 
-.index-banner .shadowWrap li {
+.index-banner .shadowWrap>li {
   position: absolute;
   top: 0px;
   right: 0;
@@ -573,6 +575,13 @@ body {
 .index-banner .bottomWord li a {
   cursor: pointer;
   color: #fff;
+}
+
+.classifyWrap {
+  position: absolute;
+  z-index: 99;
+  /* top: 682px;
+  left: 138px; */
 }
 
 
