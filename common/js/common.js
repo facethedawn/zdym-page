@@ -16,12 +16,8 @@
 
         if(aim > 200) {
           $('.common-header').addClass('other')
-          $('.common-header .logo2').show()
-          $('.common-header .logo1').hide()
         }else {
           $('.common-header').removeClass('other')
-          $('.common-header .logo1').show()
-          $('.common-header .logo2').hide()
         }
       })
 

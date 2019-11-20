@@ -36,6 +36,9 @@ body {
   left: 0;
   /* display: none; */
 }
+.common-header.other .logo1 {
+  display: none;
+}
 .common-header .logo2 {
   margin-left: 100px;
   display: inline-block;
@@ -43,6 +46,9 @@ body {
   position: absolute;
   left: 0;
   display: none;
+}
+.common-header.other .logo2 {
+  display: inline-block;
 }
 .common-header .content {
   /* position: absolute; */
