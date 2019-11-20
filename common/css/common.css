@@ -3,9 +3,9 @@ body {
   overflow-x: hidden;
 }
 
-::selection{background:transparent; color:#000;}
-::-moz-selection{background:transparent; color:#000;}
-::-webkit-selection{background:transparent; color:#000;}
+::selection{background:transparent; color:#ec5d41;}
+::-moz-selection{background:transparent; color:#ec5d41;}
+::-webkit-selection{background:transparent; color:#ec5d41;}
 
 /* 顶部header */
 .common-header {
@@ -347,7 +347,7 @@ body {
 .common-classify li {
   display: inline-block;
   background-color: rgba(255, 255, 255, .2);
-  border: 1px solid rgba(255, 255, 255, .5);
+  /* border: 1px solid rgba(255, 255, 255, .5); */
   border-radius: 15px;
   transition: all .3s;
   /* font-size: 16px;
@@ -366,7 +366,20 @@ body {
   background-color: #ec5d41;
   color: #fff;
 }
+.common-classify li.active {
+  background-color: #ec5d41;
+  color: #fff;
+}
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: #fad8d2 !important;
+  height: 12px !important;
+  width: 12px !important;
+  margin: -6px 0 0 -6px !important;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+  background-color: #ec5d41 !important;
+}
 
 
 

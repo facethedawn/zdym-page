@@ -102,6 +102,9 @@ $(function(){
           top: 115 * propoH
         })
 
+        $('.secondNav ul').hide()
+        $('.secondNav ul').eq(this.realIndex).fadeIn()
+
         $('.index-banner h1').css({
           left: 124
         })
@@ -332,7 +335,7 @@ $(function(){
     // 每个slider的简介 
     $('.index-banner .info').css({
       width: 450 * propoH,
-      top: 650 * propoH,
+      top: 620 * propoH,
       left: 460 * propoH
     })
     
@@ -525,6 +528,11 @@ $(function(){
     $('.classifyWrap').css({
       top: 682 * propoH,
       left: 138 * propoH
+    })
+
+    $('.secondNav').css({
+      left: 138,
+      bottom: 200 * propoH
     })
 
     

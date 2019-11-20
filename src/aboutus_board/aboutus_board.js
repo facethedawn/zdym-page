@@ -8,8 +8,10 @@ $(function(){
       let aim = destination.index
       if (aim == 0) {
         $('.one').addClass('ani')
+        $('.common-header').removeClass('other')
       }else {
         $('.one').removeClass('ani')
+        $('.common-header').addClass('other')
       }
        if (aim == 1) {
         $('.two').addClass('ani')
@@ -53,7 +55,7 @@ $(function(){
 
     $('.one .tag span').css({
       width: 48 * propoH,
-      height: 3 * propoH,
+      height: 2 * propoH,
       marginTop: 6 * propoH,
       marginRight: 18 * propoH,
     })
