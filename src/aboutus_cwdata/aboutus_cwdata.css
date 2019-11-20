@@ -1,0 +1,190 @@
+.one {
+  background: url(/src/aboutus_cwdata/img/bg.jpg) center ;
+  background-size: cover;
+}
+
+#fullpage .section {
+  overflow: hidden;
+}
+
+.one h1 {
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  /* font-size: 128px;
+  left: 112px;
+  top: 240px; */
+}
+
+.one h2 {
+  color: #fff;
+  position: absolute;
+  font-weight: 100;
+  /* width: 600px;
+  font-size: 36px;
+  line-height: 50px;
+  top: 388px;
+  left: 123px; */
+}
+
+.one .tag {
+  position: absolute;
+  color: #fff;
+  /* top: 194px;
+  left: 123px;
+  font-size: 18px; */
+}
+.one .tag span {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  /* width: 48px;
+  height: 3px;
+  margin-top: 6px;
+  margin-right: 18px; */
+}
+.one .classifyWrap {
+  position: absolute;
+  /* left: 123px;
+  bottom: 220px; */
+}
+
+
+/* 球开始 */
+
+.one .ballAll {
+  position: absolute;
+  animation: breath 5s infinite linear;
+  /* width: 374px;
+  height: 357px;
+  top: 244px;
+  right: 430px; */
+}
+
+.one .ballAll .b1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 374px;
+  height: 357px; */
+}
+
+.one .ballAll .b2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 374px;
+  height: 357px; */
+  animation: opacityChange 5s infinite linear 2.5s;
+}
+
+.one .ball2 {
+  position: absolute;
+  /* width: 83px;
+  height: 84px;
+  bottom: 194px;
+  left: 760px; */
+  animation: upDown 6s infinite linear;
+}
+
+.one .ball3 {
+  position: absolute;
+  /* width: 53px;
+  height: 53px;
+  top: 200px;
+  left: 540px; */
+  animation: upDown 6s infinite linear 2s;
+}
+
+/* 球结束 */
+
+
+.two .content {
+  height: 100%;
+  margin: 0 auto;
+  /* width: 1440px; */
+}
+
+.two .content .top {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* width: 1314px;
+  height: 350px;
+  margin-left: -657px;
+  margin-top: -395px; */
+}
+.two .content .top .blc {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8b51d;
+  border-top-left-radius: 90px;
+  /* width: 247px;
+  height: 350px; */
+}
+.two .content .top .info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  width: 940px;
+}
+.two .content .top .info h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.two .content .top .info h3 {
+  width: 940px;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.two .content .top .info p {
+  color: #3d4346;
+  font-size: 16px;
+  line-height: 26px;
+}
+.two .content .bottom {
+  width: 1314px;
+  height: 350px;
+  position: absolute;
+  left: 50%;
+  margin-left: -657px;
+  top: 50%;
+  margin-top: 45px;
+  text-align: right;
+}
+.two .content .bottom .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 940px;
+  margin-right: 45px;
+}
+.two .content .bottom .info h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.two .content .bottom .info h3 {
+  width: 940px;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.two .content .bottom .info p {
+  color: #3d4346;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+.two .content .bottom .blc {
+  width: 247px;
+  height: 350px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f8b51d;
+  border-top-right-radius: 90px;
+}

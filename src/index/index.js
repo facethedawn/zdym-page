@@ -97,8 +97,8 @@ $(function(){
           opacity:1,
           borderTopLeftRadius: 0
         })
-        $('.index-banner .shadowWrap li').hide()
-        $('.index-banner .shadowWrap li').eq(this.realIndex).show().css({
+        $('.index-banner .shadowWrap>li').hide()
+        $('.index-banner .shadowWrap>li').eq(this.realIndex).show().css({
           top: 115 * propoH
         })
 
@@ -521,6 +521,14 @@ $(function(){
       paddingLeft: Math.floor(30 * propoH),
       paddingRight: Math.floor(30 * propoH)
     })
+
+    $('.classifyWrap').css({
+      top: 682 * propoH,
+      left: 138 * propoH
+    })
+
+    
+
 
   }
   
