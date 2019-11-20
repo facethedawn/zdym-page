@@ -28,7 +28,10 @@
 }
 .al-article-wrap .title ul li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 14px;
+}
+.al-article-wrap .title ul li:first-child {
+  margin-left: 0;
 }
 .al-article-wrap .title ul li a {
   font-size: 18px;

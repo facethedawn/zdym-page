@@ -122,6 +122,7 @@ $(function(){
       width: 940 * propoH,
       fontSize: 30 * propoH,
       marginBottom: 20 * propoH,
+      lineHeight: 40 * propoH + 'px'
     })
 
     $('.two .content .top .info p').css({
@@ -144,13 +145,14 @@ $(function(){
     $('.two .content .bottom .info h1').css({
       fontSize: 70 * propoH,
       marginTop: 60 * propoH,
-      marginBottom: 20 * propoH
+      marginBottom: 30 * propoH
     })
 
     $('.two .content .bottom .info h3').css({
       width: 940 * propoH,
       fontSize: 30 * propoH,
-      marginBottom: 20 * propoH
+      marginBottom: 20 * propoH,
+      lineHeight: 40 * propoH + 'px'
     })
 
     $('.two .content .bottom .info p').css({

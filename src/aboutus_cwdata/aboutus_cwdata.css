@@ -40,7 +40,7 @@
   font-size: 18px; */
 }
 .one.ani .tag {
-  animation: fadeIn 1s forwards;
+  animation: fadeIn 1s forwards .36s;
 }
 .one .tag span {
   display: inline-block;
@@ -53,7 +53,7 @@
 }
 .one p {
   color: #fff;
-  border-left: 6px solid rgba(255,255,255, .5);
+  border-left: 3px solid rgba(255,255,255, .5);
   font-weight: 100;
   position: absolute;
   opacity: 0;
