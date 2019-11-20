@@ -99,6 +99,10 @@ $(function(){
         height: 64 * propoH
     })
 
+    $('.industry_wrap .industryTopList_2 .left').css({
+        marginTop:70 * propoH
+    })
+
     $('.industry_wrap .industryContent p').css({
         width: 667 * propoH,
         marginTop:130 * propoH
@@ -111,10 +115,19 @@ $(function(){
         height: 56 * propoH
     })
 
+    $('.industry_wrap .industryTopList_1 h1').css({
+        marginTop:150 * propoH,
+    })
+
+    $('.industry_wrap .industryTopList_1 p').css ({
+        width: 600 * propoH,
+        marginTop:150 * propoH
+    })
+
     $('.industry_wrap .industryTopList_1 .introImg').css({
         width:1100 * propoH,
         height:423 * propoH,
-        marginTop:100 * propoH
+        marginTop:60 * propoH
     })
 
     $('.industry_wrap .industryContent p').css({
@@ -139,7 +152,7 @@ $(function(){
     $('.industry_wrap .industryTopList_2 .introImg').css({
         width:748 * propoH,
         height:567 * propoH,
-        marginTop:150 * propoH
+        marginTop:220 * propoH
     })
 
     $('.industry_wrap .industryTopList_3').css ({
@@ -149,11 +162,12 @@ $(function(){
     $('.industry_wrap .industryTopList_3 .introImg').css({
         width:786 * propoH,
         height:580 * propoH,
-        marginTop:150 * propoH
+        marginTop:220 * propoH
     })
 
     $('.industry_wrap .industryTopList_3 .right').css ({
-        width:400 * propoH
+        width:400 * propoH,
+        marginTop:100  * propoH
     })
 
     $('.industry_wrap .industryTopList_3 h1 img').css({
