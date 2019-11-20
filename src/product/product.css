@@ -38,6 +38,26 @@
     background-size: cover;
 }
 
+.product_wrap {
+    position: relative;
+    min-width: 1400px;
+    overflow: auto;
+}
+
+.product_wrap h4 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .product_wrap h4 span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-right: 24px;
+    width: 48px;
+    height: 3px;
+    background-color: #fff;
+  }
+
 .product_wrap .product_text{
     padding-left: 110px;
     padding-top: 180px;
@@ -66,7 +86,9 @@
 }
 
 .product_nav {
-    margin-top: 150px;
+    position: absolute;
+    left: 110px;
+    bottom: 110px;
 }
 
 .product_nav li {
