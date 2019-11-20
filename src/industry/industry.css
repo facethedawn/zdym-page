@@ -1,0 +1,155 @@
+.industry_wrap_bg01 {
+    background-image: url(img/pharma_bg_01.jpg);
+    background-size: cover;
+    background-color: blue;
+}
+
+.industry_wrap_bg02 {
+    background-image: url(img/pharma_bg_02.jpg);
+    background-size: cover;
+}
+
+.industry_wrap_bg03 {
+    background-image: url(img/pharma_bg_03.jpg);
+    background-size: cover;
+}
+
+.industry_wrap_bg04 {
+    background-image: url(img/pharma_bg_04.jpg);
+    background-size: cover;
+}
+
+.industry_wrap .one{
+    position: relative;
+    min-width: 1400px;
+    overflow: auto;
+    background-color: #836560;
+}
+
+.industry_wrap .one h4 {
+    font-size: 20px;
+    color: #fff;
+  }
+
+.industry_wrap .one h4 span {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-right: 24px;
+    width: 48px;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .industry_wrap .one .product_text{
+    color: white;
+    position: absolute;
+    left: 110px;
+    top: 180px;
+}
+
+.industry_wrap .one h3 {
+    font-size: 72px;
+    line-height: 86px;
+    font-weight: lighter;
+    
+}
+
+.industry_wrap .one p {
+    font-size: 48px; 
+    line-height: 60px;
+    font-weight: lighter;
+}
+
+.industry_wrap .one .detailInfo {
+    font-weight: lighter;
+    font-size: 24px;
+    padding-top: 20px;
+    display: block;
+    line-height: 40px;
+}
+
+.industry_wrap .one .industry_nav {
+    position: absolute;
+    left: 110px;
+    bottom: 110px;
+}
+
+.industry_wrap .one .industry_nav li {
+    float: left;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.industry_wrap .one .industry_nav li a {
+    font-size: 16px;
+    background-color: #8d736e;
+    border-radius: 12px;
+    padding:0 24px;
+    display: block;
+}
+
+.industry_wrap .one .industry_nav li.active a {
+    background-color: #ec5d41;
+}
+
+.industry_wrap .one .industry_nav li a{
+    color: white;
+    line-height: 36px;
+}
+
+.industry_wrap .industryContent {
+    min-width: 1440px ;
+    margin:0 auto;
+    padding-top: 105px;
+}
+
+.industry_wrap .industryContent h1 {
+    color: #ec5d41;
+    font-weight: lighter;
+    font-size: 60px;
+    float: left;
+    margin-left: 243px;
+}
+
+.industry_wrap .industryContent p {
+    float: right;
+    width: 667px;
+    position: relative;
+} 
+
+.industry_wrap .industryContent p span {
+    position: absolute;
+    left: -18px;
+    top: 10px;
+    width: 8px;
+    height: 56px;
+    background-color: #ec5d41;
+}
+
+.industry_wrap .industryContent .introImg {
+    width: 1103px;
+    height: 423px;
+    display: block;
+    margin:0 auto;
+    clear: both;
+}
+
+.industry_wrap .industryContent h1 b {
+    font-weight: bolder;
+    display: block;
+}
+
+.industry_wrap .industryContent p {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.industryTopList_1 h1{
+    position: absolute;
+}
+
+.clearBoth{
+    clear: both;
+}
