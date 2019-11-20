@@ -23,7 +23,7 @@ $(function(){
             marginTop: 9 * propoH,
             marginRight: 24 * propoH,
             width: 48 * propoH,
-            height: 3 * propoH
+            height: 2 * propoH
         })
 
         $('.product_wrap .product_text').css({
@@ -33,18 +33,20 @@ $(function(){
         
         $('.product_wrap h3').css({
             fontSize: 72 * propoH,
-            lineHeight: 86 * propoH + 'px'
+            lineHeight: 86 * propoH + 'px',
+            marginTop:25 * propoH
         })
 
         $('.product_wrap p').css({
             fontSize: 48 * propoH,
-            lineHeight: 60 * propoH + 'px'
+            lineHeight: 60 * propoH + 'px',
+            paddingTop: 20 * propoH
         })
         
         $('.product_wrap .detailInfo').css({
             fontSize: 24 * propoH,
             lineHeight: 40 * propoH + 'px',
-            paddingTop: 20 * propoH
+            paddingTop: 40 * propoH
         })
 
         $('.product_nav').css({

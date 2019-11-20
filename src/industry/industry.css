@@ -99,7 +99,6 @@
 }
 
 .industry_wrap .industryContent {
-    min-width: 1440px ;
     margin:0 auto;
 }
 
@@ -107,15 +106,22 @@
     color: #ec5d41;
     font-weight: lighter;
     font-size: 60px;
-    float: left;
-    margin-left: 243px;
+    
 }
 
 .industry_wrap .industryContent p {
-    float: right;
+    
     width: 667px;
     position: relative;
 } 
+
+.industry_wrap .industryTopList_1 h1 {
+    float: left;
+}
+
+.industry_wrap .industryTopList_1 p {
+    float: right;
+}
 
 .industry_wrap .industryContent p span {
     position: absolute;
@@ -126,7 +132,7 @@
     background-color: #ec5d41;
 }
 
-.industry_wrap .industryContent .introImg {
+.industry_wrap .industryTopList_1 .introImg {
     width: 1103px;
     height: 423px;
     display: block;
@@ -145,10 +151,77 @@
     font-weight: lighter;
 }
 
-.industryTopList_1 h1{
-    position: absolute;
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.industry_wrap .industryTopList_2 .left {
+    width: 400px;
+}
+
+.industry_wrap .industryTopList_2 img.introImg {
+    float: right;
+    width:748px;
+    height: 567px;
+}
+
+.industryTopList_2 h1 {
+    color: white;
+}
+
+.industryTopList_2 p {
+    color: white;
+}
+
+.industryTopList_3 img.introImg {
+    float: left;
+    width:786px;
+    height: 580px;
+}
+
+.industryTopList_3 .right {
+    width: 400px;
+}
+
+.hr_dash {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 1px;
+    border-bottom: dotted #ec5d41;
+}
+
+.sectionGraybg {
+    background-color: #785953;
+}
+
+.industryTopList_6 p {
+    color: black;
 }
 
 .clearBoth{
     clear: both;
+}
+
+.tech_ball_01 {
+    background-image: url(img/tech_ball_01.png);
+    background-size: cover;
+    position: absolute;
+    left: 590px;
+    top:150px;
+    width: 70px;
+    height: 70px;
+}
+
+.tech_ball_02 {
+    background-image: url(img/tech_ball_02.png);
+    background-size: cover;
+    position: absolute;
+    left: 1324px;
+    top:618px;
+    width: 100px;
+    height: 100px;
 }
