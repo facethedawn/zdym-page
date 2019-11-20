@@ -163,5 +163,10 @@ $(function(){
     $('.two .bottomWord').css({
       fontSize: 16 * propoH
     })
+
+    $('.mouseWrap').css({
+      left: 156 * propoH,
+      bottom: 70 * propoH
+    })
   }
 })

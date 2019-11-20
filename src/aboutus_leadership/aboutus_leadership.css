@@ -121,3 +121,7 @@
 }
 
 /* 球结束 */
+
+.mouseWrap {
+  position: absolute;
+}

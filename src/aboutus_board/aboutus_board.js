@@ -162,5 +162,10 @@ $(function(){
       width: 247 * propoH,
       height: 350 * propoH
     })
+
+    $('.mouseWrap').css({
+      left: 156 * propoH,
+      bottom: 70 * propoH
+    })
   }
 })

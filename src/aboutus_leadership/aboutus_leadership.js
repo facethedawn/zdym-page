@@ -102,5 +102,10 @@ $(function() {
       top: 200 * propoH,
       left: 500 * propoH
     })
+
+    $('.mouseWrap').css({
+      left: 156 * propoH,
+      bottom: 70 * propoH
+    })
   }
 })
