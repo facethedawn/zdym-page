@@ -3,7 +3,20 @@ $(function(){
 		navigation: true,
 	  navigationPosition: 'left',
 		autoScrolling:true,
-		scrollHorizontally: true
+    scrollHorizontally: true,
+    afterLoad: function(origin, destination, direction) {
+      let aim = destination.index
+      if (aim == 0) {
+        $('.one').addClass('ani')
+      }else {
+        $('.one').removeClass('ani')
+      }
+       if (aim == 1) {
+        $('.two').addClass('ani')
+      }else {
+        $('.two').removeClass('ani')
+      }
+    }
   });
   initPage()
   $(window).resize(function() {

@@ -3,9 +3,9 @@ body {
   overflow-x: hidden;
 }
 
-::selection{background:transparent; color:white;}
-::-moz-selection{background:transparent; color:white;}
-::-webkit-selection{background:transparent; color:white;}
+::selection{background:transparent; color:#000;}
+::-moz-selection{background:transparent; color:#000;}
+::-webkit-selection{background:transparent; color:#000;}
 
 /* 顶部header */
 .common-header {

@@ -1,4 +1,4 @@
-$(function() {
+$(function(){
   $('#fullpage').fullpage({
 		navigation: true,
 	  navigationPosition: 'left',
@@ -17,13 +17,21 @@ $(function() {
         $('.two').removeClass('ani')
       }
     },
+    onLeave: function(index, nextIndex, direction) {
+      // console.log(nextIndex.index)
+    }
   });
+
+  $('.three ul li').mouseover(function() {
+    $('.three ul li').removeClass('active')
+    $(this).addClass('active')
+  })
 
   initPage()
   $(window).resize(function() {
     initPage()
   })
-  
+
   function initPage() {
     var wH = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     var wW = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -47,14 +55,14 @@ $(function() {
     $('.one .tag').css({
       top: 194 * propoH,
       left: 123 * propoH,
-      fontSize: 18 * propoH,
+      fontSize: 18 * propoH
     })
 
     $('.one .tag span').css({
       width: 48 * propoH,
       height: 3 * propoH,
       marginTop: 6 * propoH,
-      marginRight: 18 * propoH
+      marginRight: 18 * propoH,
     })
 
     $('.one p').css({
@@ -62,9 +70,10 @@ $(function() {
       fontSize: 24 * propoH,
       left: 123 * propoH,
       paddingLeft: 20 * propoH,
-      lineHeight: 30 * propoH + 'px'
+      lineHeight: 30 * propoH + 'px',
+      top: 530 * propoH
     })
-    
+
     $('.one .classifyWrap').css({
       left: 123 * propoH,
       bottom: 220 * propoH
@@ -74,7 +83,7 @@ $(function() {
       width: 374 * propoH,
       height: 357 * propoH,
       top: 166 * propoH,
-      right: 328 * propoH
+      right: 358 * propoH
     })
 
     $('.one .ballAll .b1').css({
@@ -91,14 +100,66 @@ $(function() {
       width: 83 * propoH,
       height: 84 * propoH,
       bottom: 352 * propoH,
-      right: 222 * propoH
+      left: 722 * propoH
     })
 
     $('.one .ball3').css({
       width: 53 * propoH,
       height: 53 * propoH,
-      top: 200 * propoH,
-      left: 500 * propoH
+      top: 700 * propoH,
+      right: 250 * propoH
+    })
+
+    $('.two .content').css({
+      width: 1440 * propoH
+    })
+
+    $('.two .content h1').css({
+      fontSize: 70 * propoH,
+      paddingTop: 80 * propoH,
+      marginBottom: 40 * propoH
+    })
+
+    $('.two .content .subTitle').css({
+      width: 1000 * propoH,
+      paddingTop: 36 * propoH,
+      paddingBottom: 36 * propoH,
+      fontSize: 36 * propoH,
+      lineHeight: 40 * propoH + 'px',
+      paddingTop: 34 * propoH,
+      paddingBottom: 34 * propoH,
+      marginBottom: 94 * propoH
+    })
+
+    $('.two .content ul').css({
+      marginBottom: 106 * propoH
+    })
+
+    $('.two .content ul li').css( {
+      // margin: 0 45px;
+      width: 577 * propoH,
+      marginLeft: 45 * propoH,
+      marginRight: 45 * propoH,
+    })
+
+    $('.two .content ul li.l p').css({
+      lineHeight: 34 * propoH
+    })
+
+    $('.two .content ul li p').css({
+      fontSize: 18 * propoH,
+      width: 520 * propoH,
+      marginLeft: 50 * propoH,
+      lineHeight: 30 * propoH + 'px'
+    })
+
+    $('.two .content ul li span').css({
+      width: 24 * propoH,
+      height: 33 * propoH
+    })
+
+    $('.two .bottomWord').css({
+      fontSize: 16 * propoH
     })
   }
 })

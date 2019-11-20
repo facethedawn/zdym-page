@@ -11,28 +11,41 @@
   font-weight: 300;
   color: #fff;
   position: absolute;
+  opacity: 0;
   /* font-size: 128px;
   left: 112px;
   top: 240px; */
+}
+
+.one.ani h1 {
+  animation: fadeIn 1s forwards .5s;
 }
 
 .one h2 {
   color: #fff;
   position: absolute;
   font-weight: 100;
+  opacity: 0;
   /* width: 600px;
   font-size: 36px;
   line-height: 50px;
   top: 388px;
   left: 123px; */
 }
+.one.ani h2 {
+  animation: fadeIn 1s forwards 1s;
+}
 
 .one .tag {
   position: absolute;
   color: #fff;
+  opacity: 0;
   /* top: 194px;
   left: 123px;
   font-size: 18px; */
+}
+.one.ani .tag {
+  animation: fadeIn 1s forwards;
 }
 .one .tag span {
   display: inline-block;

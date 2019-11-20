@@ -1,0 +1,279 @@
+.one {
+  background: url(/src/aboutus_cwdata/img/bg.jpg) center ;
+  background-size: cover;
+}
+
+.one h1 {
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  opacity: 0;
+  /* font-size: 128px;
+  left: 112px;
+  top: 240px; */
+}
+.one.ani h1 {
+  animation: fadeIn 1s forwards .5s;
+}
+
+.one h2 {
+  color: #fff;
+  position: absolute;
+  font-weight: 100;
+  opacity: 0;
+  /* width: 600px;
+  font-size: 36px;
+  line-height: 50px;
+  top: 388px;
+  left: 123px; */
+}
+.one.ani h2 {
+  animation: fadeIn 1s forwards 1s;
+}
+
+.one .tag {
+  position: absolute;
+  color: #fff;
+  opacity: 0;
+  /* top: 194px;
+  left: 123px;
+  font-size: 18px; */
+}
+.one.ani .tag {
+  animation: fadeIn 1s forwards;
+}
+.one .tag span {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  /* width: 48px;
+  height: 3px;
+  margin-top: 6px;
+  margin-right: 18px; */
+}
+.one p {
+  color: #fff;
+  border-left: 6px solid rgba(255,255,255, .5);
+  font-weight: 100;
+  position: absolute;
+  opacity: 0;
+  /* width: 727px;
+  font-size: 24px;
+  left: 123px;
+  padding-left: 20px;
+  line-height: 30px;
+  top: 530px; */
+}
+.one.ani p {
+  animation: fadeIn 1s forwards 1.5s;
+}
+
+.one .classifyWrap {
+  position: absolute;
+  /* left: 123px;
+  bottom: 220px; */
+}
+
+
+/* 球开始 */
+
+.one .ballAll {
+  position: absolute;
+  animation: breath 5s infinite linear;
+  /* width: 374px;
+  height: 357px;
+  top: 166px;
+  right: 358px; */
+}
+
+.one .ballAll .b1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 374px;
+  height: 357px; */
+}
+
+.one .ballAll .b2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: opacityChange 5s infinite linear 2.5s;
+  /* width: 374px;
+  height: 357px; */
+}
+
+.one .ball2 {
+  position: absolute;
+  animation: upDown 6s infinite linear;
+  /* width: 83px;
+  height: 84px;
+  bottom: 352px;
+  left: 722px; */
+}
+
+.one .ball3 {
+  animation: upDown 6s infinite linear 2s;
+  position: absolute;
+  /* width: 53px;
+  height: 53px;
+  top: 700px;
+  right: 250px; */
+}
+
+/* 球结束 */
+.two .content {
+  /* background-color: green; */
+  /* width: 1440px; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.two .content h1 {
+  color: #3d4346;
+  font-weight: bolder;
+  text-align: center;
+  opacity: 0;
+  /* font-size: 70px;
+  padding-top: 80px;
+  margin-bottom: 40px; */
+}
+.two.ani .content h1 {
+  animation: fadeIn 1s forwards;
+}
+.two .content .subTitle {
+  color: #3d4346;
+  margin: 0 auto;
+  font-weight: 100;
+  border-top: 5px solid #f8b51d;
+  border-bottom: 5px solid #f8b51d;
+  opacity: 0;
+  /* width: 1000px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-size: 36px;
+  line-height: 40px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  margin-bottom: 94px; */
+}
+.two.ani .content .subTitle {
+  animation: fadeIn 1s forwards .5s;
+}
+.two .content ul {
+  font-size: 0;
+  text-align: center;
+  opacity: 0;
+  /* margin-bottom: 106px; */
+}
+.two.ani .content ul {
+  animation: fadeIn 1s forwards 1s;
+}
+.two .content ul li {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  /* margin: 0 45px;
+  width: 577px; */
+}
+.two .content ul li.l p {
+  /* line-height: 34px; */
+}
+.two .content ul li p {
+  text-align: left;
+  font-weight: 100;
+  /* font-size: 18px;
+  width: 520px;
+  margin-left: 50px;
+  line-height: 30px; */
+}
+.two .content ul li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: #f8b51d;
+  border-top-left-radius: 200px;
+  /* width: 24px;
+  height: 33px; */
+}
+.two .bottomWord {
+  /* font-size: 16px; */
+  text-align: center;
+  opacity: 0;
+}
+.two.ani .bottomWord {
+  animation: fadeIn 1s forwards 1.5s;
+}
+
+
+.three {
+  background: url(/src/aboutus_cwdata/img/bg2.jpg) center ;
+  background-size: cover;
+  font-size: 0;
+}
+.three ul {
+  text-align: center;
+  width: 1172px;
+  margin: 0 auto;
+}
+.three ul li {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  transition: all .3s;
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.three ul  li img {
+  display: inline-block;
+}
+.three ul  li h4 {
+  width: 247px;
+  font-size: 60px;
+  text-align: right;
+  position: absolute;
+  color: #fff;
+  margin-top: 50px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-weight: 100;
+  transition: all .3s;
+}
+.three ul  li.active h4 {
+  left: 250px;
+  text-align: left;
+}
+.three ul  .l.active h4 {
+  left: 284px;
+}
+.three ul .c.active h4 {
+  left: 280px;
+}
+.three ul .r.active h4 {
+  left: 285px;
+}
+.three ul  li.r h4 {
+  font-size: 40px;
+}
+.three ul  li .info {
+  display: inline-block;
+  vertical-align: top;
+  width: 0px;
+  transition: all .3s;
+  height: 350px;
+}
+.three ul  li .info p {
+  width: 277px;
+  font-size: 18px;
+  margin-top: 148px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, .6);
+  margin-left: 36px;
+  text-align: left;
+}
+.three ul  li.active .info{
+  width: 340px;
+}
