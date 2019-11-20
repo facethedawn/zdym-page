@@ -1,0 +1,107 @@
+.one {
+  background: url(/src/aboutus_leadership/img/bg.jpg) center ;
+  background-size: cover;
+}
+
+.one h1 {
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  /* font-size: 128px;
+  left: 112px;
+  top: 240px; */
+}
+
+.one h2 {
+  color: #fff;
+  position: absolute;
+  font-weight: 100;
+  /* width: 600px;
+  font-size: 36px;
+  line-height: 50px;
+  top: 388px;
+  left: 123px; */
+}
+
+.one .tag {
+  position: absolute;
+  color: #fff;
+  /* top: 194px;
+  left: 123px;
+  font-size: 18px; */
+}
+.one .tag span {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  /* width: 48px;
+  height: 3px;
+  margin-top: 6px;
+  margin-right: 18px; */
+}
+.one p {
+  color: #fff;
+  border-left: 6px solid rgba(255,255,255, .5);
+  font-weight: 100;
+  position: absolute;
+  /* width: 727px;
+  font-size: 24px;
+  left: 123px;
+  padding-left: 20px;
+  line-height: 30px; */
+}
+
+.one .classifyWrap {
+  position: absolute;
+  /* left: 123px;
+  bottom: 220px; */
+}
+
+
+/* 球开始 */
+
+.one .ballAll {
+  position: absolute;
+  animation: breath 5s infinite linear;
+  /* width: 374px;
+  height: 357px;
+  top: 166px;
+  right: 328px; */
+}
+
+.one .ballAll .b1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 374px;
+  height: 357px; */
+}
+
+.one .ballAll .b2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: opacityChange 5s infinite linear 2.5s;
+  /* width: 374px;
+  height: 357px; */
+}
+
+.one .ball2 {
+  position: absolute;
+  animation: upDown 6s infinite linear;
+  /* width: 83px;
+  height: 84px;
+  bottom: 352px;
+  right: 222px; */
+}
+
+.one .ball3 {
+  animation: upDown 6s infinite linear 2s;
+  position: absolute;
+  /* width: 53px;
+  height: 53px;
+  top: 200px;
+  left: 500px; */
+}
+
+/* 球结束 */

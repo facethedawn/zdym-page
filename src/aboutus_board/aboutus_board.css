@@ -1,5 +1,5 @@
 .one {
-  background: url(/src/aboutus_cwdata/img/bg.jpg) center ;
+  background: url(/src/aboutus_board/img/bg.jpg) center ;
   background-size: cover;
 }
 
@@ -125,66 +125,66 @@
 .two .content .top .info {
   display: inline-block;
   vertical-align: top;
-  margin-left: 50px;
-  width: 940px;
+  /* margin-left: 50px;
+  width: 940px; */
 }
 .two .content .top .info h1 {
-  font-size: 70px;
   font-weight: 900;
+  /* font-size: 70px;
   margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
 .two .content .top .info h3 {
-  width: 940px;
-  font-size: 30px;
   font-weight: 100;
-  margin-bottom: 20px;
+  /* width: 940px;
+  font-size: 30px;
+  margin-bottom: 20px; */
 }
 .two .content .top .info p {
   color: #3d4346;
-  font-size: 16px;
-  line-height: 26px;
+  /* font-size: 16px;
+  line-height: 26px; */
 }
 .two .content .bottom {
-  width: 1314px;
-  height: 350px;
   position: absolute;
   left: 50%;
-  margin-left: -657px;
   top: 50%;
-  margin-top: 45px;
   text-align: right;
+  /* margin-left: -657px;
+  margin-top: 45px;
+  width: 1314px;
+  height: 350px; */
 }
 .two .content .bottom .info {
   display: inline-block;
   vertical-align: top;
-  width: 940px;
-  margin-right: 45px;
+  /* width: 940px;
+  margin-right: 45px; */
 }
 .two .content .bottom .info h1 {
-  font-size: 70px;
   font-weight: 900;
+  /* font-size: 70px;
   margin-top: 60px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
 .two .content .bottom .info h3 {
-  width: 940px;
-  font-size: 30px;
-  font-weight: 100;
-  margin-bottom: 20px;
   text-align: left;
+  font-weight: 100;
+  /* width: 940px;
+  font-size: 30px;
+  margin-bottom: 20px; */
 }
 .two .content .bottom .info p {
   color: #3d4346;
-  font-size: 16px;
-  line-height: 26px;
   text-align: left;
+  /* font-size: 16px;
+  line-height: 26px; */
 }
 .two .content .bottom .blc {
-  width: 247px;
-  height: 350px;
   display: inline-block;
   vertical-align: top;
   background-color: #f8b51d;
   border-top-right-radius: 90px;
+  /* width: 247px;
+  height: 350px; */
 }
