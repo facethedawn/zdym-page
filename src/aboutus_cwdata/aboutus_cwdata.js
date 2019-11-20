@@ -13,14 +13,14 @@ $(function(){
         $('.one').removeClass('ani')
         $('.common-header').addClass('other')
       }
-       if (aim == 1) {
+    },
+    onLeave: function(index, nextIndex, direction) {
+      let aim = nextIndex.index
+      if (aim == 1) {
         $('.two').addClass('ani')
       }else {
         $('.two').removeClass('ani')
       }
-    },
-    onLeave: function(index, nextIndex, direction) {
-      // console.log(nextIndex.index)
     }
   });
 

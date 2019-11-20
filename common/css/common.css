@@ -116,11 +116,14 @@ body {
   transform: translateY(6px);
   transition: all .2s;
 }
+.common-header .content .top-item-wrap .top-item .second-wrap li:hover a {
+  color: #fff;
+}
 .common-header.other .content .top-item-wrap .top-item .second-wrap {
   background-color: #ec5d41;
 }
 .common-header .content .top-item-wrap .top-item .second-wrap li a {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .7);
   font-size: 15px;
 }
 .common-header .content .top-item-wrap .top-item .second-wrap.show {
@@ -289,7 +292,7 @@ body {
   font-size: 16px;
   font-weight: bolder;
   margin-top: 16px;
-  line-height: 20px;
+  line-height: 19px;
   transition: all .5s;
 }
 .common-item:hover h3 {

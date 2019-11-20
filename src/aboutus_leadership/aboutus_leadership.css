@@ -53,7 +53,7 @@
 }
 .one p {
   color: #fff;
-  border-left: 6px solid rgba(255,255,255, .5);
+  border-left: 3px solid rgba(255,255,255, .5);
   font-weight: 100;
   position: absolute;
   opacity: 0;
