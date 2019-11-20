@@ -117,6 +117,47 @@
     color: white;
     line-height: 36px;
 }
+
+.product_ball_01 {
+    background-image: url(img/tech_ball_01.png);
+    background-size: cover;
+    position: absolute;
+    left: 524px;
+    top:160px;
+    width: 70px;
+    height: 70px;
+}
+
+.product_ball_02 {
+    background-image: url(img/tech_ball_02.png);
+    background-size: cover;
+    position: absolute;
+    left: 1106px;
+    top:400px;
+    width: 100px;
+    height: 100px;
+}
+
+.tech_ball_01 {
+    background-image: url(img/tech_ball_01.png);
+    background-size: cover;
+    position: absolute;
+    left: 590px;
+    top:150px;
+    width: 70px;
+    height: 70px;
+}
+
+.tech_ball_02 {
+    background-image: url(img/tech_ball_02.png);
+    background-size: cover;
+    position: absolute;
+    left: 1324px;
+    top:618px;
+    width: 100px;
+    height: 100px;
+}
+
 .clearBoth {
     clear: both;
     display: block;
