@@ -201,7 +201,7 @@
     margin-top: 100px;
     margin-bottom: 100px;
     height: 1px;
-    border-bottom: dotted #ec5d41;
+    border-bottom: dotted #ec5d41 2px;
 }
 
 .sectionGraybg {
