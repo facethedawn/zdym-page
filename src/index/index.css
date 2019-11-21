@@ -5,11 +5,11 @@ body {
   /* display: none; */
 }
 .index-banner {
-  background-color: #dcae45;
+  /* background-color: transparent !important; */
   position: relative;
   min-width: 1400px;
   overflow: auto;
-  /* transition: all .3s; */
+  transition: all .6s;
 }
 .index-banner .swiper-wrap {
   position: absolute;

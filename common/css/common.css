@@ -270,6 +270,7 @@ body {
   border-top-left-radius: 30px;
 }
 .common-item .cover img {
+  border-top-left-radius: 30px;
   display: block;
   width: 256px;
   height: 160px;
