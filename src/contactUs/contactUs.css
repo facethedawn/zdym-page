@@ -183,11 +183,7 @@
   .submitForm .form_submitBtn:hover {
     background-color: #ff7a60;
   }
-
-  .submitForm .press {
-    background-color: #d4462a;
-  }
-
+  
   .clearBoth {
       clear: both;
       display: block;

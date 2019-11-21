@@ -33,6 +33,3 @@ function toogleContactUsOppList(wrapId,btn) {
     $(".opportunityWrap .oppNav li.active").removeClass("active");
     $(btn).attr("class","active");
 }
-
-function toogleSubmitBtnEffect(eventId,btn) {
-}
