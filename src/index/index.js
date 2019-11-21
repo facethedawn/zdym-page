@@ -7,15 +7,14 @@ $(function(){
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
     effect : 'fade',
-    speed:300,
+    speed: 600,
     initialSlide: 0,
     on: {
       slideChangeTransitionStart: function(){
         // alert(this.activeIndex);
         var aim = this.realIndex;
-
         if(aim == 0) {
-          $('.index-banner, .index-banner .swiper-wrap .swiper-container .swiper-slide').css({
+          $('.index-banner').css({
             backgroundColor: '#dcae45'
           })
           $('.index-banner').css({
@@ -30,7 +29,7 @@ $(function(){
           $('.index-banner .info h3').text('Vision | Mission | Value proposition')
           $('.index-banner .info p').text('Big data analytics and technology innovation company focused around improving human health.')
         }else if (aim == 1) {
-          $('.index-banner, .index-banner .swiper-wrap .swiper-container .swiper-slide, .shadowWrap').css({
+          $('.index-banner').css({
             backgroundColor: '#78acb0'
           })
           $('.shadowWrap').css({
@@ -42,7 +41,7 @@ $(function(){
           $('.index-banner .info h3').text('We rely on big data analytics, cloud computing and artificial intelligence in our suite of healthcare')
           $('.index-banner .info p').text('Technology solutions to ensure our customers have the best data and insights .')
         }else if (aim == 2) {
-          $('.index-banner, .index-banner .swiper-wrap .swiper-container .swiper-slide, .shadowWrap').css({
+          $('.index-banner').css({
             backgroundColor: '#c9162a'
           })
           $('.shadowWrap').css({
@@ -54,7 +53,7 @@ $(function(){
           $('.index-banner .info h3').text('Next generation healthcare & life')
           $('.index-banner .info p').text('healthcare & life science analytics architecture built from the ground-up to support customer success in the big data era.')
         }else if (aim == 3) {
-          $('.index-banner, .index-banner .swiper-wrap .swiper-container .swiper-slide, .shadowWrap').css({
+          $('.index-banner').css({
             backgroundColor: '#70544f'
           })
           $('.shadowWrap').css({
