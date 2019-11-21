@@ -6,10 +6,11 @@ body {
 }
 .index-banner {
   /* background-color: transparent !important; */
+  background-color: #dcae45;
   position: relative;
-  min-width: 1400px;
+  min-width: 1200px;
   overflow: auto;
-  transition: all .6s;
+  /* transition: all .6s; */
 }
 .index-banner .swiper-wrap {
   position: absolute;
@@ -19,8 +20,8 @@ body {
   z-index: 2;
 }
 .index-banner .swiper-wrap .swiper-container {
-  border-top-left-radius: 330px;
-  border-top-right-radius: 100px;
+  /* border-top-left-radius: 330px;
+  border-top-right-radius: 100px; */
   /* background-color: yellowgreen !important; */
   overflow: hidden;
 }
@@ -42,6 +43,7 @@ body {
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide {
   position: relative;
+  visibility: hidden;
 }
 .index-banner .swiper-wrap .swiper-container .swiper-slide.one .ball1 {
   position: absolute;
@@ -208,6 +210,10 @@ body {
   height: 60px !important;
 }
 
+.swiper-container-fade .swiper-slide-active, .swiper-container-fade .swiper-slide-active .swiper-slide-active {
+  visibility: visible !important;
+}
+
 .index-banner .shadowWrap {
   position: absolute;
   /* width: 1493px;
@@ -220,6 +226,7 @@ body {
   border-top-left-radius: 500px;
   overflow: hidden;
   transition: all .6s;
+  min-width: 1200px;
 
 
   /* width: 1920px;

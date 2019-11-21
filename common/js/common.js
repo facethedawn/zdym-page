@@ -40,6 +40,23 @@
           paddingLeft: 14 * propoH,
           paddingRight: 14 * propoH
         })
+
+        $('.common-header .logo1, .common-header .logo2').css({
+          marginLeft: 100 * propoH,
+        })
+
+        $('.common-header .content .contact').css({
+          marginRight: 68 * propoH
+        })
+
+        $('.common-header .content .lang').css({
+          marginLeft: 70 * propoH
+        })
+
+        $('.common-header .content .top-item-wrap .top-item').css({
+          marginLeft: 16 * propoH,
+          marginRight: 16 * propoH
+        })
       }
     })()
   })

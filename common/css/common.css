@@ -2,6 +2,10 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
   overflow-x: hidden;
 }
+textarea {
+  /* background-color: red; */
+  border: 101px solid #e32300;
+}
 
 ::selection{background:transparent; color:#ec5d41;}
 ::-moz-selection{background:transparent; color:#ec5d41;}
@@ -21,6 +25,7 @@ body {
   z-index: 9999;
   transition: all .5s;
   text-align: right;
+  min-width: 1200px;
   /* background: #ccc; */
   /* box-shadow: 0px 0px 15px #444; */
 }
@@ -274,7 +279,7 @@ body {
   display: block;
   width: 256px;
   height: 160px;
-  transition: all .5s;
+  transition: transform .5s;
 }
 .common-item:hover .cover img {
   transform: scale(1.2);

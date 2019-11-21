@@ -29,7 +29,11 @@
 .industry_wrap .one h4 {
     font-size: 20px;
     color: #fff;
+    opacity: 0;
   }
+.industry_wrap .one.ani h4 {
+    animation: fadeIn 1s forwards .3s;
+}
 
 .industry_wrap .one h4 span {
     display: inline-block;
@@ -52,13 +56,20 @@
     font-size: 72px;
     line-height: 86px;
     font-weight: lighter;
-    
+    opacity: 0;
+}
+.industry_wrap .one.ani h3 {
+    animation: fadeIn 1s forwards .8s;
 }
 
 .industry_wrap .one p {
     font-size: 48px; 
     line-height: 60px;
     font-weight: lighter;
+    opacity: 0;
+}
+.industry_wrap .one.ani p {
+    animation: fadeIn 1s forwards .8s;
 }
 
 .industry_wrap .one .detailInfo {
@@ -67,7 +78,12 @@
     padding-top: 20px;
     display: block;
     line-height: 40px;
+    opacity: 0;
 }
+.industry_wrap .one.ani .detailInfo {
+    animation: fadeIn 1s forwards 1.1s;
+}
+
 
 .industry_wrap .one .industry_nav {
     position: absolute;
@@ -108,12 +124,33 @@
     font-size: 60px;
     
 }
+.industry_wrap .two .industryContent h1,
+.industry_wrap .three .industryContent h1,
+.industry_wrap .four .industryContent h1 {
+    opacity: 0;
+}
+.industry_wrap .two.ani .industryContent h1,
+.industry_wrap .three.ani .industryContent h1,
+.industry_wrap .four.ani .industryContent h1 {
+    animation: fadeIn 1s forwards;
+}
 
 .industry_wrap .industryContent p {
     
     width: 667px;
     position: relative;
 } 
+
+.industry_wrap .two .industryContent p,
+.industry_wrap .three .industryContent p,
+.industry_wrap .four .industryContent p {
+    opacity: 0;
+}
+.industry_wrap .two.ani .industryContent p,
+.industry_wrap .three.ani .industryContent p,
+.industry_wrap .four.ani .industryContent p {
+    animation: fadeIn 1s forwards .3s;
+}
 
 .industry_wrap .industryTopList_1 h1 {
     float: left;
@@ -148,6 +185,16 @@
     display: block;
     margin:0 auto;
     clear: both;
+}
+.industry_wrap .two .introImg,
+.industry_wrap .three .introImg,
+.industry_wrap .four .introImg {
+    opacity: 0;
+}
+.industry_wrap .two.ani .introImg,
+.industry_wrap .three.ani .introImg,
+.industry_wrap .four.ani .introImg {
+    animation: fadeIn 1s forwards .8s;
 }
 
 .industry_wrap .industryContent h1 b {
@@ -224,6 +271,7 @@
     top:150px;
     width: 70px;
     height: 70px;
+    animation: upDown infinite 5s;
 }
 
 .tech_ball_02 {
@@ -234,4 +282,5 @@
     top:618px;
     width: 100px;
     height: 100px;
+    animation: upDown infinite 3.5s 1s;
 }

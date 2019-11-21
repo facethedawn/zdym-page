@@ -7,7 +7,7 @@ $(function(){
     direction: 'horizontal', // 垂直切换选项
     loop: true, // 循环模式选项
     effect : 'fade',
-    speed: 600,
+    speed: 300,
     initialSlide: 0,
     on: {
       slideChangeTransitionStart: function(){
@@ -101,17 +101,21 @@ $(function(){
           top: 115 * propoH
         })
 
+        $('.index-banner .info').css({
+          width: 1000 * propoH
+        })
+
         $('.secondNav ul').hide()
         $('.secondNav ul').eq(this.realIndex).fadeIn()
 
         $('.index-banner h1').css({
-          left: 124
+          left: 124 * propoH
         })
         $('.index-banner h2').css({
-          left: 124
+          left: 124 * propoH
         })
         $('.index-banner .info').css({
-          left: 138
+          left: 138 * propoH
         })
         
       }
@@ -143,33 +147,20 @@ $(function(){
         opacity:1,
         borderTopLeftRadius: 0
       })
+
+      $('.index-banner .info').css({
+        width: 1000 * propoH
+      })
     }
     $('.index-banner h1').css({
-      left: 124
+      left: 124 * propoH
     })
     $('.index-banner h2').css({
-      left: 124
+      left: 124 * propoH
     })
     $('.index-banner .info').css({
-      left: 138
+      left: 138 * propoH
     })
-    if(aim == 0) {
-      $('..index-banner .swiper-wrap .swiper-container .swiper-slide').css({
-        backgroundColor: '#dcae45'
-      })
-    }else if(aim == 1) {
-      $('..index-banner .swiper-wrap .swiper-container .swiper-slide').css({
-        backgroundColor: '#78acb0'
-      })
-    }else if(aim == 2) {
-      $('..index-banner .swiper-wrap .swiper-container .swiper-slide').css({
-        backgroundColor: '#c9162a'
-      })
-    }else if(aim == 3) {
-      $('..index-banner .swiper-wrap .swiper-container .swiper-slide').css({
-        backgroundColor: '#70544f'
-      })
-    }
   })
 
 
@@ -333,7 +324,7 @@ $(function(){
 
     // 每个slider的简介 
     $('.index-banner .info').css({
-      width: 450 * propoH,
+      width: 600 * propoH,
       top: 620 * propoH,
       left: 460 * propoH
     })
@@ -530,7 +521,7 @@ $(function(){
     })
 
     $('.secondNav').css({
-      left: 138,
+      left: 138 * propoH,
       bottom: 200 * propoH
     })
 

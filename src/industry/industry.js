@@ -1,9 +1,45 @@
 $(function(){
+    let isLong = $('#fullpage').hasClass('long')
     $('#fullpage').fullpage({
-          navigation: true,
+        navigation: true,
         navigationPosition: 'left',
-          autoScrolling:true,
-          scrollHorizontally: true
+        autoScrolling:true,
+        scrollHorizontally: true,
+        afterLoad: function(origin, destination, direction) {
+            let aim = destination.index
+            if (aim == 0) {
+                $('.one').addClass('ani')
+                $('.common-header').removeClass('other')
+            }else {
+                $('.one').removeClass('ani')
+                $('.common-header').addClass('other')
+            }
+
+            if(isLong) {
+                if(aim == 1) {
+                    $('.two').addClass('ani')
+                }else {
+                    $('.two').removeClass('ani')
+                }
+                if(aim == 2) {
+                    $('.three').addClass('ani')
+                }else {
+                    $('.three').removeClass('ani')
+                }
+                
+                if(aim == 3 || aim == 4) {
+                    $('.four').addClass('ani')
+                }else {
+                    $('.four').removeClass('ani')
+                }
+            }else {
+                if(aim == 1 || aim == 2) {
+                    $('.two').addClass('ani')
+                }else {
+                    $('.two').removeClass('ani')
+                }
+            }
+        }
     });
     initPage()
     $(window).resize(function() {
