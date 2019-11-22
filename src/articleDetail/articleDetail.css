@@ -102,3 +102,6 @@
   font-size: 24px;
   margin-top: 18px;
 }
+.ad-share ul li a {
+  display: block;
+}
