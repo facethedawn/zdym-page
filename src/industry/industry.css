@@ -91,7 +91,7 @@
     bottom: 110px;
 }
 
-.industry_wrap .one .industry_nav li {
+/* .industry_wrap .one .industry_nav li {
     float: left;
     height: 36px;
     margin-right: 20px;
@@ -112,7 +112,7 @@
 .industry_wrap .one .industry_nav li a{
     color: white;
     line-height: 36px;
-}
+} */
 
 .industry_wrap .industryContent {
     margin:0 auto;

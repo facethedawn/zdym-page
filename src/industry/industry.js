@@ -69,7 +69,7 @@ $(function(){
 
     $('.industry_wrap .one .product_text').css({
         left: 110 * propoH,
-        top:180 * propoH
+        top:195 * propoH
     })
 
     $('.industry_wrap .one h3').css({
@@ -92,26 +92,26 @@ $(function(){
     
     $('.industry_wrap .one .industry_nav').css({
         left: 110 * propoH,
-        bottom:110 * propoH
+        bottom: 220 * propoH
     })
 
-    $('.industry_wrap .one .industry_nav li').css({
-        height: 36 * propoH,
-        marginRight: 20 * propoH
-    })
+    // $('.industry_wrap .one .industry_nav li').css({
+    //     height: 36 * propoH,
+    //     marginRight: 20 * propoH
+    // })
     
-    $('.industry_wrap .one .industry_nav li a').css({
-        fontSize: 16 * propoH,
-        paddingLeft:24 * propoH,
-        paddingRight:24 * propoH,
-        borderRadius:12 * propoH,
-        lineHeight:36 * propoH+ 'px',
-        letterSpacing:2 * propoH + 'px'
-    })
+    // $('.industry_wrap .one .industry_nav li a').css({
+    //     fontSize: 16 * propoH,
+    //     paddingLeft:24 * propoH,
+    //     paddingRight:24 * propoH,
+    //     borderRadius:12 * propoH,
+    //     lineHeight:36 * propoH+ 'px',
+    //     letterSpacing:2 * propoH + 'px'
+    // })
 
-    $('.industry_wrap .one .industry_nav li').css({
-        paddingTop:105 * propoH
-    })
+    // $('.industry_wrap .one .industry_nav li').css({
+    //     paddingTop:105 * propoH
+    // })
 
     $('.industry_wrap .industryContent').css ({
         width:1100 * propoH,
