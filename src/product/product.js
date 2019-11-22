@@ -28,7 +28,7 @@ $(function(){
 
         $('.product_wrap .product_text').css({
             paddingLeft: 110 * propoH,
-            paddingTop: 180 * propoH
+            paddingTop: 195 * propoH
         })
         
         $('.product_wrap h3').css({
@@ -51,20 +51,20 @@ $(function(){
 
         $('.product_nav').css({
             left: 110 * propoH,
-            bottom: 110 * propoH
+            bottom: 220 * propoH
         })
 
-        $('.product_nav li').css({
-            marginRight:20 * propoH
-        })
+        // $('.product_nav li').css({
+        //     marginRight:20 * propoH
+        // })
 
-        $('.product_nav li a').css({
-            fontSize: 16 * propoH,
-            borderRadius:12 * propoH,
-            paddingLeft: 24 * propoH,
-            paddingRight: 24 * propoH,
-            letterSpacing:2 * propoH + 'px'
-        })
+        // $('.product_nav li a').css({
+        //     fontSize: 16 * propoH,
+        //     borderRadius:12 * propoH,
+        //     paddingLeft: 24 * propoH,
+        //     paddingRight: 24 * propoH,
+        //     letterSpacing:2 * propoH + 'px'
+        // })
 
         $('.product_ball_01').css({
             left: 524 * propoW,

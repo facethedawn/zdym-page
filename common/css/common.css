@@ -2,10 +2,6 @@ body {
   font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
   overflow-x: hidden;
 }
-textarea {
-  /* background-color: red; */
-  border: 101px solid #e32300;
-}
 
 ::selection{background:transparent; color:#ec5d41;}
 ::-moz-selection{background:transparent; color:#ec5d41;}
@@ -31,7 +27,7 @@ textarea {
 }
 .common-header.other {
   background-color: #fff;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #aaa;
 }
 .common-header .logo1 {
   margin-left: 100px;
@@ -194,7 +190,7 @@ textarea {
   line-height: 39px;
   border-radius: 10px;
   background-color: #ec5d41;
-  transition: all .3s;
+  transition: background .3s;
   margin-right: 68px;
   font-size: 15px;
   vertical-align: top;
@@ -368,7 +364,7 @@ textarea {
   background-color: rgba(255, 255, 255, .2);
   /* border: 1px solid rgba(255, 255, 255, .5); */
   border-radius: 15px;
-  transition: all .3s;
+  transition: background .3s;
   /* font-size: 16px;
   margin-right: 20px; */
 }
@@ -402,6 +398,27 @@ textarea {
 
 
 
+
+.share {
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  /* margin-top: -44px; */
+}
+.share li {
+  font-size: 22px;
+  margin-bottom: 22px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  transition: all .3s;
+}
+.share li:hover {
+  transform: scale(1.5);
+}
+.share li.linkedin a {
+  color: #fff;
+} 
 
 
 
