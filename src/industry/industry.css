@@ -284,3 +284,8 @@
     height: 100px;
     animation: upDown infinite 3.5s 1s;
 }
+
+.mouseWrap {
+    position: absolute;
+    z-index: 9;
+}
