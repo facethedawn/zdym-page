@@ -177,21 +177,7 @@ body {
 .index-banner .swiper-wrap .direction li:hover i {
   color: #ec5d41;
 }
-.index-banner .swiper-wrap .share {
-  position: absolute;
-  z-index: 999999;
-}
-.index-banner .swiper-wrap .share li {
-  font-size: 22px;
-  margin-bottom: 22px;
-  text-align: center;
-  cursor: pointer;
-  color: #fff;
-  transition: all .3s;
-}
-.index-banner .swiper-wrap .share li:hover {
-  transform: scale(1.5);
-}
+
 
 .index-banner .swiper-wrap .pagi {
   position: absolute;
@@ -504,6 +490,7 @@ body {
   left: 161px;
   font-size: 20px;
   color: #fff;
+  transition: all .3s;
 }
 .index-banner h4 span {
   display: inline-block;

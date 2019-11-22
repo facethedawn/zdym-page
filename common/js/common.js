@@ -57,6 +57,13 @@
           marginLeft: 16 * propoH,
           marginRight: 16 * propoH
         })
+
+
+        // 社交分享
+        $('.share').css({
+          right: 38 * propoH,
+          marginTop: -44 * propoH
+        })
       }
     })()
   })

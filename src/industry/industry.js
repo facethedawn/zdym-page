@@ -120,7 +120,7 @@ $(function(){
 
     $('.industry_wrap .industryContent h1').css({
         fontSize: 60 * propoH,
-        marginTop:130 * propoH,
+        marginTop: 130 * propoH,
         widht: 500 * propoH,
         height: 300 * propoH
     })
@@ -152,12 +152,12 @@ $(function(){
     })
 
     $('.industry_wrap .industryTopList_1 h1').css({
-        marginTop:150 * propoH,
+        marginTop: 175 * propoH,
     })
 
     $('.industry_wrap .industryTopList_1 p').css ({
         width: 600 * propoH,
-        marginTop:150 * propoH
+        marginTop:175 * propoH
     })
 
     $('.industry_wrap .industryTopList_1 .introImg').css({

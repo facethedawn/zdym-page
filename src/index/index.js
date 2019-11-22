@@ -108,6 +108,11 @@ $(function(){
         $('.secondNav ul').hide()
         $('.secondNav ul').eq(this.realIndex).fadeIn()
 
+
+        $('.index-banner h4').css({
+          left: 138 * propoH
+        })
+
         $('.index-banner h1').css({
           left: 124 * propoH
         })
@@ -344,12 +349,6 @@ $(function(){
     $('.index-banner .swiper-wrap .direction li i').css({
       marginTop: 16 * propoH,
       fontSize: 18 * propoH
-    })
-
-    // 社交分享
-    $('.index-banner .swiper-wrap .share').css({
-      right: 38 * propoH,
-      top: 350 * propoH
     })
 
     // swiper 右下角的指示

@@ -156,6 +156,7 @@ background-color: #fff;
     top:150px;
     width: 70px;
     height: 70px;
+    animation: upDown 5s infinite;
 }
 
 .tech_ball_02 {
@@ -166,6 +167,7 @@ background-color: #fff;
     top:618px;
     width: 100px;
     height: 100px;
+    animation: upDown 4.5s infinite;
 }
 
 .clearBoth {
