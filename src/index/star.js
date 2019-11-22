@@ -50,7 +50,7 @@ var u = document.createElement("canvas"),
   };
 u.id = c;
 // u.style.cssText = "position:fixed;top:0;left:0;z-index:" + s.z + ";opacity:" + s.o;
-u.style.cssText = "position:absolute;top:0;left:0;z-index:1;"
+u.style.cssText = "position:absolute;top:-7px;left:0;z-index:1;"
 // j("body")[0].appendChild(u);
 document.querySelector('.index-banner').appendChild(u);
 k(), window.onresize = k;

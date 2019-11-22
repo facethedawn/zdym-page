@@ -4,6 +4,7 @@
   background: url(/common/img/articleListTitle.jpg) center center;
   position: relative;
   min-width: 1200px;
+  overflow: hidden;
 }
 .al-banner h1 {
   color: #fff;
@@ -11,7 +12,7 @@
   font-weight: bolder;
   position: absolute;
   left: 60px;
-  bottom: -15px;
+  bottom: -19px;
 }
 
 
