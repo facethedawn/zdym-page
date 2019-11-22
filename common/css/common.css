@@ -364,7 +364,7 @@ body {
   background-color: rgba(255, 255, 255, .2);
   /* border: 1px solid rgba(255, 255, 255, .5); */
   border-radius: 15px;
-  transition: all .3s;
+  transition: background .3s;
   /* font-size: 16px;
   margin-right: 20px; */
 }
