@@ -1,7 +1,7 @@
 $(function(){
   var isClick = false
   
-  indexInit()
+  indexInit()  
 
   var indexSwiper = new Swiper ('.swiper-container', {
     direction: 'horizontal', // 垂直切换选项
@@ -528,7 +528,6 @@ $(function(){
 
 
   }
-  
 
 
 })
