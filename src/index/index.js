@@ -1,6 +1,10 @@
 $(function(){
   var isClick = false
   
+
+  var s = parseInt(getUrlQuery('f'))||0;
+  
+  
   indexInit()  
 
   var indexSwiper = new Swiper ('.swiper-container', {
@@ -8,7 +12,7 @@ $(function(){
     loop: true, // 循环模式选项
     effect : 'fade',
     speed: 300,
-    initialSlide: 0,
+    initialSlide: s,
     on: {
       slideChangeTransitionStart: function(){
         // alert(this.activeIndex);
