@@ -27,8 +27,8 @@ $(function(){
           $('.shadowWrap').css({
             backgroundColor: "#fab72a"
           })
-          $('.index-banner h1').text('Healthcare')
-          $('.index-banner h2').text('Big Data')
+          $('.index-banner h1').text('Precision')
+          $('.index-banner h2').text('Data Analytics')
           $('.index-banner h4 b').text('About Us')
           $('.index-banner .info h3').text('Vision | Mission | Value proposition')
           $('.index-banner .info p').text('Big data analytics and technology innovation company focused around improving human health.')

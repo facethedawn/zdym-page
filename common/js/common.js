@@ -2,8 +2,10 @@
   $(function() {
     (function(){
       var s = getUrlQuery('s')
+      var b = getUrlQuery('b')
       if(s) {
     	  $('.common-header .content .top-item-wrap .top-item').eq(s).addClass('active')
+    	  $('.common-header .content .top-item-wrap .top-item').eq(s).find('.second-wrap li').eq(b).addClass('active')
       }
       $('.common-header .content .top-item-wrap .top-item').mouseover(function() {
         $('.common-header .content .top-item-wrap .top-item').removeClass('active')

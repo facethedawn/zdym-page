@@ -102,6 +102,10 @@
       padding-top: 30px;
   }
 
+  .consulting h5 {
+    margin-top: 20px;
+  }
+
   .consulting h2 .topBorder, .opportunityWrap .oppList li h2 .topBorder {
       display: block;
       position: absolute;

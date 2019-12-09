@@ -82,6 +82,10 @@ background-color: #fff;
     opacity: 0;
     animation: fadeIn 1s forwards 1.4s;
 }
+.product_wrap p i {
+    font-style: normal;
+    font-size: 60px;
+}
 
 .product_wrap .detailInfo {
     font-weight: lighter;
